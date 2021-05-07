@@ -1,0 +1,237 @@
+body {
+    font-family: 'Raleway Light', arial;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+    
+#logo {
+    width: 80px;
+    height: 40px;
+    
+}
+#menus {
+    margin: 0%;
+    padding: 0%;
+    float: center;
+    position: absolute;
+    top: 20px;
+    width: 25%;
+    right: 0px;
+    
+}
+
+#héber li {
+    color: blue;
+}
+
+#menus li {
+    float: left;
+    display: inline;
+    padding: 4%;
+    margin: 0%;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    border-color: blue;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 2px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+button {
+    background-color:#0065FC;
+    color: white;
+    border-radius: 12px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+.filtres {
+    display: flex;
+}
+
+
+.titres_filtres {
+    color: black;
+    text-align: left;
+}
+.ico {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    
+}
+
+.aco {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.eco {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    
+}
+.infofiltres {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.info {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+
+.icone {
+    display: inline-block;
+    box-shadow: 0px 0px 2px #888;
+    border-radius: 100%;
+    border-color: blue;
+    padding: 0.6em 0.6em;
+    text-align: center;
+    
+
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+h3 {
+    font-weight: bold;
+    padding-left: 40px;
+    padding-bottom: 0px;
+    color: black;
+}
+
+#Hébergements {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 70%;
+    height: 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#hotel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.titre_aside {
+    padding-top: 100px;
+    color: black;
+}
+
+
+
+
+
+.Popu {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 30%;
+    height: 70%;
+    position: relative;
+    top: -710px;
+    left: 1025px;
+    right: 100px;
+    padding-bottom: 10px;
+}
+
+.fleche {
+    position: absolute;
+    left: 350px;
+    top: 20px;
+    color: #0065FC;
+    font-size: 20px;
+}
+
+.héberg {
+    background-color: white;
+    border-radius: 20%;
+    border-width: 10%;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.popul {
+    display: flex;
+    border-top: 10%;
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 20%;
+    border-width: 10%;
+}
+
+#ho {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.nuit {
+    color: black;
+}
+
+.star {
+    font-size: 12px;
+    color: #0065FC;
+}
+.star2{
+    font-size: 12px;
+    color: #0065FC;
+    padding-top: 30px;
+}
+
+
+#Activités {
+    display: flex;
+    flex-wrap: wrap;
+    }
+.acti {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ha {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.Port {
+    border: 3px solid black;
+    
+}
+
+
+
+
+
