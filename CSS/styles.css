@@ -1,16 +1,24 @@
 body {
-    font-family: 'Raleway Light', arial;
+    font-family: 'Raleway ', arial;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 40px;
     margin-right: 50px;
 }
+
+#blocpage {
+    width: 1100px;
+    margin: 10px;
+}
     
 #logo {
-    width: 80px;
+   display: flex;
+   flex-direction: row;
+    align-items: baseline;
     height: 40px;
-    
+    width: 80px;
 }
+
 #menus {
     margin: 0%;
     padding: 0%;
@@ -56,9 +64,6 @@ button {
     border-radius: 12px;
 }
 
-h2 {
-    font-size: 15px;
-}
 
 .filtres {
     display: flex;
@@ -97,8 +102,6 @@ h2 {
     margin-left: 20px;
 }
 
-
-
 .icone {
     display: inline-block;
     box-shadow: 0px 0px 2px #888;
@@ -106,9 +109,7 @@ h2 {
     border-color: blue;
     padding: 0.6em 0.6em;
     text-align: center;
-    
-
-}
+    }
 
 h2 {
     font-weight: bold;
@@ -120,17 +121,20 @@ h2 {
 h3 {
     font-weight: bold;
     padding-left: 40px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     color: black;
-}
+   
+   }
 
 #Hébergements {
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 70%;
+    width: 85%;
     height: 0%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 #hotel {
@@ -145,20 +149,26 @@ h3 {
     color: black;
 }
 
-
-
-
-
 .Popu {
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 30%;
-    height: 70%;
+    width: 40%;
+    height: 50%;
     position: relative;
-    top: -710px;
-    left: 1025px;
-    right: 100px;
+    top: -610px;
+    left: 970px;
+    right: 300px;
     padding-bottom: 10px;
+}
+
+
+.popul {
+    display: flex;
+    border-top: 20%;
+    padding-top: 0px;
+    background-color: white;
+    border-radius: 20%;
+    border-width: 10%;
 }
 
 .fleche {
@@ -173,19 +183,8 @@ h3 {
     background-color: white;
     border-radius: 20%;
     border-width: 10%;
-    padding-top: 40px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 20px;
 }
 
-.popul {
-    display: flex;
-    border-top: 10%;
-    padding-top: 10px;
-    background-color: white;
-    border-radius: 20%;
-    border-width: 10%;
 }
 
 #ho {
@@ -210,26 +209,128 @@ h3 {
 
 
 #Activités {
-    display: flex;
-    flex-wrap: wrap;
+    border-radius: 20px;
+    width: 130%;
+    height: 20%;
+    margin-bottom: 5%;
     }
-.acti {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-#ha {
+    
+    h4 {
+        font-size: 20px;
+    }
+
+#Acti {
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 20px;
+   }
+
+#legende {
     color: black;
     font-weight: bold;
     font-size: 20px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.Port {
-    border: 3px solid black;
+.Port  {
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+    background-color: white;
+    margin-top: 10px;
+    block-size: 450px;
+}
+.Port img {
+    width: 300px;
+    height: 400px;
+}
+.Fort {
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+    background-color: white;
+    margin-top: 10px;
+    block-size: 250px;
+   
+}
+.Fort img {
+    width: 300px;
+}
+.Ile {
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+    background-color: white;
+    block-size: 170px;
+    margin-top: 40px;
+}
+.Ile img {
+    width: 300px;
+    height: 120px;
+}
+.To {
+    
     
 }
+.Calanques {
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+    background-color: white;
+    block-size: 450px;
+    }
+.Calanques img {
+    width: 300px;
+    height: 400px;
+}
+.NotreDame {
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+    background-color: white;
+    block-size: 200px;
+}
+.NotreDame img {
+    width: 300px;
+    height: 150px;
+}
+.Longchamp {
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px grey;
+    background-color: white;
+    margin-top: 40px;
+}
+.Longchamp img {
+    width: 300px;
+    height: 150px;
+}
+.To2 {
+    
+    
+}
+
+footer {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: flex-start;
+    float: center;
+    position: absolute;
+    width: 100%;
+    margin-left: -50px;
+}
+ul {
+    list-style-type: none;
+}
+
+.bloc2 {
+    margin-left: 20%;
+  }
+
+.bloc3 {
+    margin-left: 20%;
+}
+
+
+
+
 
 
 
