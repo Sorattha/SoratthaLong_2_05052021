@@ -136,7 +136,7 @@ a:hover {
     font-weight: bold;
     margin-top: 0px;
 }
-.eco, .eco1, .eco2 {
+.eco1, .eco2, .eco3, .eco4 {
     display: flex;
     flex-wrap: wrap;
     margin-left: 30px;
@@ -497,13 +497,17 @@ h4 {
 
 /* RESPONSIVE */
 
-@media screen and (max-width : 600px) {
+@media screen and (max-device-width : 480px) {
     body {
         margin: 2px;
         padding: 2px;
     }
     #logo{
-        height: 40px;
+        width: 250px;
+        height: auto;
+        padding-top: 50px;
+        padding-left: 40px;
+        
        }
     #menus {
         position: relative;
@@ -511,77 +515,246 @@ h4 {
         justify-content: space-around;
     }
     .inscrip {
-        margin-top: -70px;
+        margin-top: 50px;
         position: absolute;
+        margin-left: -200px;
     }
     .blue {
-        margin-left: 40px;
+        margin-top: 200px;
+        margin-left: -700px;
+        
     }
     .black {
-        padding-left: 40px;
-        margin-right: 10px;
+        margin-right: 40px;
+        margin-top: 200px;
     }
     .inscrip, .black, .blue {
-        font-size: 20px;
+        font-size: 50px;
     }
-    h1 { 
-        width: 40%;
-        font-size: 25px;
+    .presentation { 
+        margin-top: 300px;
+        width: 70%;
+        font-size: 40px;
+        margin-left: 40px;
     }
-    .eco {
-     margin-top: 30px;
-        }
+    h1 {
+        font-size: 50px;
+    }
+   .point {
+       width: 150px;
+       height: 110px;
+       font-size: 60px;
+       text-align: center;
+       padding-top: 40px;
+       margin-left: 40px;
+       border-radius: 40px 0px 0px 40px;
+   }
+   
+   #search {
+       width: 650px;
+       height: 150px;
+   }
+   button {
+       height: 150px;
+       width: 150px;
+       border-radius: 40px;
+       margin-left: -10px;
+   }
+   ::placeholder {
+       font-size: 40px;
+   }
+   .icone {
+       width: 80px;
+       height: 80px;
+       font-size: 60px;
+   }
+   .titres_filtres {
+       font-size: 40px;
+       padding-top: 30px;
+       padding-left: 20px;
+   }
+   .filtre1 {
+       font-size: 50px;
+       margin-left: 40px;
+       padding-bottom: 20px;
+   }
+
     .eco1 {
-        margin-top: 80px;
-        margin-left: -285px;
-    }
+        border: 5px solid;
+     margin-top: 100px;
+     height: 130px;
+     width: 500px;
+     margin-left: -140px;
+     border-radius: 80px;
+     }
     .eco2 {
-        margin-top: 130px;
-        margin-left: -140px;
+        border: 5px solid;
+        margin-top: 100px;
+        margin-left: 70px;
+        width: 400px;
+        height: 130px;
+        border-radius: 80px;
+    }
+    .eco3 {
+        border: 5px solid;
+        height: 130px;
+        width: 500px;
+        margin-top: 300px;
+        margin-left: -1000px;
+        border-radius: 80px;
+    }
+    .eco4 {
+        border: 5px solid;
+        margin-top: 500px;
+        margin-left: -510px;
+        border-radius: 80px;
+        height: 130px;
+        width: 600px;
+    }
+    .infofiltres {
+        margin-left: 40px;
+        padding-top: 100px;
+    }
+    .in {
+        border: 3px solid;
+        font-size: 40px;
+        width: 40px;
+        height: 40px;
+
+    }
+    .info {
+        font-size: 40px;
+        padding-left: 20px;
     }
     aside {
-        margin-top: 280px;
+        margin-top: 1000px;
         left: 0px;
-        width: 500px;
-        height: 600px;
+        width: 1050px;
+        height: 1500px;
     }
+    aside img {
+        width: 350px;
+        height: 350px;
+        padding-top: 20px;
+        padding-left: 20px;
+        border-radius: 40px 0px 0px 40px;
+    }
+    h3 {
+        font-size: 50px;
+    }
+    .fleche {
+        font-size: 50px;
+        margin-left: 500px;
+        padding-top: 30px;
+    }
+    .popul, .popul2, .popul3 {
+        height: 400px;
+        border-radius: 40px;
+    }
+    #ho {
+        font-size: 50px;
+        padding-left: 30px;
+    }
+    .nuit {
+        font-size: 40px;
+        padding-left: 40px;
+    }
+    .star2 {
+        font-size: 40px;
+        padding-top: 70px;
+        padding-left: 40px;
+    }
+
     #hebergements {
-        margin-top: 650px;
+        margin-top: 1600px;
         background-color: white;
-        width: 500px;
+       width: 900px;
+    }
+    h2 {
+        font-size: 50px;
     }
     .heberg {
-       width: 500px;
+        border: 3px solid;
+        box-shadow: 3px black;
+        border-radius: 40px;
+        height: 600px;
+        width: 1200px;
+    }
+    .heberg img {
+        border-radius: 40px 40px 0px 0px;
+       width: 950px;
+       height: 350px;
+       padding-left: 0px;
+       padding-top: 0px;
        }
+    figcaption {
+        font-size: 40px;
+    }
+    .prix {
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    .star {
+        font-size: 40px;
+    }
+
     #activites {
-        width: 500px;
+        width: 1000px;
+    }
+    h5 {
+        font-size: 50px;
+    }
+    #activites img {
+        width: 950px;
+        height: 350px;
     }
     #acti {
         flex-direction: column;
+        margin-left: 20px;
     }
     .port {
-        height: 230px;
-    }
-    .port img {
-        height: 200px;
-    }
-    footer {
-        width: 500px;
+        margin-top: 40px;
+        width: 950px;
         height: 450px;
+        margin-left: 20px;
+    }  
+    .calanques {
+        margin-top: 40px;
+        width: 950px;
+        height: 450px;
+        margin-left: 20px;
+    }
+   .fort, .ile, .notreDame, .longchamp {
+        width: 950px;
+        height: 450px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    #legende {
+        font-size: 40px;
+    }
+    
+    
+    footer {
+        width: 1100px;
+        height: 1000px;
     }
     .bloc1 {
        
         margin-left: 20px;
+        font-size: 40px;
     }
     .bloc2 {
-        margin-top: 160px;
+        margin-top: 350px;
         position: absolute;
         margin-left: 20px;
+        font-size: 40px;
     }
     .bloc3 {
-        margin-top: 300px;
+        margin-top: 650px;
         position: absolute;
         margin-left: 20px;
+        font-size: 40px;
     }
    
  }
