@@ -121,6 +121,11 @@ button {
     font-size: 15px;
 }
 
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
 .ico {
     display: flex;
     justify-content: flex-start;
@@ -131,7 +136,7 @@ button {
     font-weight: bold;
     margin-top: 0px;
 }
-.eco {
+.eco, .eco1, .eco2 {
     display: flex;
     flex-wrap: wrap;
     margin-left: 30px;
@@ -177,7 +182,7 @@ button {
 
 /* SECTION HEBERGEMENTS */
 
-#Hébergements {
+#hebergements {
     background-color: #F2F2F2;
     border-radius: 20px;
     width: 93%;
@@ -200,7 +205,7 @@ h2 {
 }
 
 
-.héberg {
+.heberg {
     background-color: white;
     border-radius: 20px;
     width: 260px;
@@ -209,11 +214,10 @@ h2 {
     padding: 0;
     margin-top: 30px;
     margin-left: 40px;
-    margin-right: 20px;
-   
+    margin-right: 20px;     
 }
 
-.héberg img {
+.heberg img {
     border-radius: 20px 20px 0px 0px;
     padding-top: 5px;
     padding-left: 5px;
@@ -249,6 +253,7 @@ i.far {
 }
 
 
+
 /* ASIDE */
 
 
@@ -257,10 +262,10 @@ aside {
     border-radius: 20px;
     width: 30%;
     height: 84%;
-    position: absolute;
     left: 69%;
-    top: 50%;
-}
+    top: 50%;   
+ } 
+ 
 
 h3 {
     font-weight: bold;
@@ -325,7 +330,7 @@ aside img {
 /* SECTION ACTIVITES */
 
 
-#Activités {
+#activites {
     width: 130%;
     height: 20%;
     margin-bottom: 5%;
@@ -337,17 +342,17 @@ h5 {
     margin-bottom: 10px;
     }
 
-#Acti {
+#acti {
     display: flex;
     flex-wrap: nowrap;
     margin-left: -3%;
    }
 
-   .To {
+   .to {
     margin-left: -25px;
 }
 
-.To2 {
+.to2 {
     margin-left: -30px;
 }
 
@@ -360,7 +365,7 @@ h5 {
     margin-bottom: 0px;
 }
 
-.Port  {
+.port  {
     margin-top: 10px;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #F2F2F2;
@@ -368,7 +373,7 @@ h5 {
     width: 320px;  
     height: 450px;
 }
-.Port img {
+.port img {
     width: 320px;
     height: 410px;
     border-radius: 20px 20px 0px 0px;
@@ -376,7 +381,7 @@ h5 {
     margin-top: -10px;
 }
 
-.Fort {
+.fort {
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #F2F2F2;
     background-color: white;
@@ -386,14 +391,14 @@ h5 {
     
 }
 
-.Fort img {
+.fort img {
     width: 320px;
     border-radius: 20px 20px 0px 0px;
     margin-left: -8px;
     margin-top: -10px;
 }
 
-.Ile {
+.ile {
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #F2F2F2;
     background-color: white;
@@ -401,7 +406,7 @@ h5 {
     width: 320px;
 }
 
-.Ile img {
+.ile img {
     width: 320px;
     height: 120px;
     border-radius: 20px 20px 0px 0px;
@@ -409,7 +414,7 @@ h5 {
     margin-top: -10px;
 }
 
-.Calanques {
+.calanques {
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #F2F2F2;
     background-color: white;
@@ -418,7 +423,7 @@ h5 {
     margin-top: 10px;
     }
 
-.Calanques img {
+.calanques img {
     width: 320px;
     height: 410px;
     border-radius: 20px 20px 0px 0px;
@@ -426,7 +431,7 @@ h5 {
     margin-top: -10px;
 }
 
-.NotreDame {
+.notreDame {
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #F2F2F2;
     background-color: white;
@@ -434,7 +439,7 @@ h5 {
     margin-top: 10px;
 }
 
-.NotreDame img {
+.notreDame img {
     width: 320px;
     height: 165px;
     border-radius: 20px 20px 0px 0px;
@@ -442,7 +447,7 @@ h5 {
     margin-top: -10px;
 }
 
-.Longchamp {
+.longchamp {
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #F2F2F2;
     background-color: white;
@@ -450,7 +455,7 @@ h5 {
     margin-top: 40px;
 }
 
-.Longchamp img {
+.longchamp img {
     width: 320px;
     height: 165px;
     border-radius: 20px 20px 0px 0px;
@@ -492,11 +497,146 @@ h4 {
 
 /* RESPONSIVE */
 
-@media all and (max-width : 960px) {
-   #Hebergements {
-
+@media screen and (max-width : 600px) {
+    body {
+        margin: 2px;
+        padding: 2px;
+    }
+    #logo{
+        height: 40px;
+       }
+    #menus {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+    .inscrip {
+        margin-top: -70px;
+        position: absolute;
+    }
+    .blue {
+        margin-left: 40px;
+    }
+    .black {
+        padding-left: 40px;
+        margin-right: 10px;
+    }
+    .inscrip, .black, .blue {
+        font-size: 20px;
+    }
+    h1 { 
+        width: 40%;
+        font-size: 25px;
+    }
+    .eco {
+     margin-top: 30px;
+        }
+    .eco1 {
+        margin-top: 80px;
+        margin-left: -285px;
+    }
+    .eco2 {
+        margin-top: 130px;
+        margin-left: -140px;
+    }
+    aside {
+        margin-top: 280px;
+        left: 0px;
+        width: 500px;
+        height: 600px;
+    }
+    #hebergements {
+        margin-top: 650px;
+        background-color: white;
+        width: 500px;
+    }
+    .heberg {
+       width: 500px;
+       }
+    #activites {
+        width: 500px;
+    }
+    #acti {
+        flex-direction: column;
+    }
+    .port {
+        height: 230px;
+    }
+    .port img {
+        height: 200px;
+    }
+    footer {
+        width: 500px;
+        height: 450px;
+    }
+    .bloc1 {
+       
+        margin-left: 20px;
+    }
+    .bloc2 {
+        margin-top: 160px;
+        position: absolute;
+        margin-left: 20px;
+    }
+    .bloc3 {
+        margin-top: 300px;
+        position: absolute;
+        margin-left: 20px;
+    }
+   
+ }
+ 
+ @media screen and (min-width : 760px) {
+   
+    #menus {
+       position: absolute;
+       display: flex;
+       width: 45%;
+       right: 0px;
+       top: 10px;   
    }
+   #menus li {
+    float: left;
+    padding: 4%;
+    margin: 0%; 
 }
+ }
+ 
+ 
+ @media screen and (min-width : 960px) {
+    #menus  {
+        position: absolute;  
+        width: 25%;
+        right: 0px;
+        top: 10px;      
+    }
+
+    #menus li {
+        float: left;
+        padding: 4%;
+        margin: 0%; 
+    }
+        
+    }
+ 
+    aside{
+        
+        position: absolute;
+    }
+    #hotel{
+        flex-direction:row;
+    }
+    .ico {
+        flex-direction: row;
+    }
+    #Acti {
+        flex-direction: row;
+    }
+     footer {
+        flex-direction: row;
+    }
+ }
+ 
     
 
 
