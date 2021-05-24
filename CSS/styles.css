@@ -4,8 +4,8 @@ body {
     margin-bottom: 30px;
     margin-left: 40px;
     margin-right: 50px;
-    width: 1050px;
 }
+
 
 
 /* header */
@@ -99,7 +99,9 @@ button {
     height: 42px;
     margin-top: -2px;
     margin-left: -2px;
+    
 }
+
 
 .rech {
     color: white;
@@ -182,10 +184,15 @@ a:hover {
 
 /* SECTION HEBERGEMENTS */
 
+.heberetaside {
+    display: flex;
+    flex-direction: row-reverse;    
+}
+
 #hebergements {
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 93%;
+    width: 70%;
     margin-bottom: 0px;
     margin-top: 0px;
 }
@@ -261,9 +268,9 @@ aside {
     background-color: #F2F2F2;
     border-radius: 20px;
     width: 30%;
-    height: 84%;
     left: 69%;
     top: 50%;   
+    margin-left: 20px;
  } 
  
 
@@ -297,9 +304,9 @@ aside img {
 }
 
 .fleche {
-    position: absolute;
-    left: 400px;
-    top: 20px;
+    float: right;
+    margin-top: -50px;
+    margin-right: 40px;
     color: black;
     font-size: 20px;
     }
@@ -497,13 +504,14 @@ h4 {
 
 /* RESPONSIVE */
 
-@media screen and (max-device-width : 480px) {
+@media screen and (max-width: 480px) {
+    
     body {
         margin: 2px;
         padding: 2px;
     }
     #logo{
-        width: 250px;
+        width: 200px;
         height: auto;
         padding-top: 50px;
         padding-left: 40px;
@@ -522,6 +530,7 @@ h4 {
     .blue {
         margin-top: 200px;
         margin-left: -700px;
+        border-bottom: 3px solid blue;
         
     }
     .black {
@@ -553,8 +562,17 @@ h4 {
    #search {
        width: 650px;
        height: 150px;
+      
+   }
+   .rech {
+    display: none;
+   }
+   .fas.fa-search {
+    display: block;
+    font-size: 50px;
    }
    button {
+      
        height: 150px;
        width: 150px;
        border-radius: 40px;
@@ -759,58 +777,379 @@ h4 {
    
  }
  
- @media screen and (min-width : 760px) {
-   
+
+@media screen and (min-width: 481px) and (max-width: 800px) {
+
+    body {
+        margin: 2px;
+        padding: 2px;
+        font-family: 'Raleway ', arial;
+    }
+    header {
+        width: auto;
+    }
+    #logo{
+        width: 100px;
+        height: auto;
+        padding-top: 30px;
+        padding-left: 40px;
+        
+       }
     #menus {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+    .inscrip {
+       float: right;
+       margin-top: -80px;
+       margin-left: 0px;
        position: absolute;
-       display: flex;
-       width: 45%;
-       right: 0px;
-       top: 10px;   
+    }
+    .blue {
+        margin-top: 20px;
+        margin-left: 200px;
+        border-bottom: 3px solid blue;
+        
+    }
+    .black {
+        margin-left: 100px;
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+    .inscrip, .black, .blue {
+        font-size: 20px;
+    }
+    .presentation { 
+        margin-top: 10px;
+        width: 70%;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+   
+   .point {
+       width: 100px;
+       height: 40px;
+       font-size: 25px;
+       text-align: center;
+       padding-top: 10px;
+       margin-left: 40px;
+       border-radius: 40px 0px 0px 40px;
    }
-   #menus li {
-    float: left;
-    padding: 4%;
-    margin: 0%; 
-}
- }
- 
- 
- @media screen and (min-width : 960px) {
-    #menus  {
-        position: absolute;  
-        width: 25%;
-        right: 0px;
-        top: 10px;      
+   
+   #search {
+       width: 650px;
+       height: 50px;
+      
+   }
+   .rech {
+    display: none;
+   }
+   .fas.fa-search {
+    display: block;
+    font-size: 20px;
+    padding-bottom: 30px;
+   }
+   button {
+      
+       height: 50px;
+       width: 150px;
+       border-radius: 40px;
+       margin-left: -10px;
+   }
+   ::placeholder {
+       font-size: 20px;
+   }
+   .icone {
+       width: 30px;
+       height: 30px;
+       font-size: 20px;
+       margin-top: -5px;
+   }
+   .titres_filtres {
+       font-size: 15px;
+       padding-top: 5px;
+       padding-left: 20px;
+   }
+   .filtre1 {
+       font-size: 20px;
+       margin-left: 20px;
+       padding-bottom: 20px;
+       margin-top: 0px;
+   }
+
+    .eco1 {
+        border: 5px solid;
+     margin-top: 50px;
+     height: 40px;
+     width: 200px;
+     margin-left: -70px;
+     border-radius: 80px;
+     }
+    .eco2 {
+        border: 5px solid;
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 200px;
+        height: 40px;
+        border-radius: 80px;
+    }
+    .eco3 {
+        border: 5px solid;
+        height: 40px;
+        width: 200px;
+        margin-top: 110px;
+        margin-left: -440px;
+        border-radius: 80px;
+    }
+    .eco4 {
+        border: 5px solid;
+        margin-top: 170px;
+        margin-left: -210px;
+        border-radius: 80px;
+        height: 40px;
+        width: 250px;
+    }
+    .infofiltres {
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+    .in {
+        border: 3px solid;
+        font-size: 15px;
+        width: 15px;
+        height: 15px;
+
+    }
+    .info {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    aside {
+        margin-top: 30px;
+        width: 500px;
+        height: 800px;
+        margin-left: -10px;
+    }
+    aside img {
+        width: 200px;
+        height: 180px;
+        padding-top: 10px;
+        padding-left: 10px;
+        border-radius: 40px 0px 0px 40px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .fleche {
+        font-size: 20px;
+        margin-left: 500px;
+    }
+    .popul, .popul2, .popul3 {
+        height: 200px;
+        border-radius: 40px;
+    }
+    #ho {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .nuit {
+        font-size: 15px;
+        padding-left: 20px;
+    }
+    .star2 {
+        font-size: 15px;
+        padding-top: 60px;
+        padding-left: 20px;
+    }
+    .heberetaside {
+        display: inline-block;
+    }
+    #hebergements {
+        background-color: white;
+       width: 400px;
+       right: 100px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .heberg {
+        
+        border-radius: 40px;
+        height: 270px;
+        width: 500px;
+        left: 100px;
+    }
+    .heberg img {
+        border-radius: 40px 40px 0px 0px;
+       width: 410px;
+       height: 170px;
+       padding-left: 0px;
+       padding-top: 0px;
+       }
+    figcaption {
+        font-size: 20px;
+    }
+    .prix {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .star {
+        font-size: 15px;
     }
 
-    #menus li {
-        float: left;
-        padding: 4%;
-        margin: 0%; 
+    #activites {
+        width: 500px;
     }
-        
+    h5 {
+        font-size: 20px;
+        margin-left: 20px;
     }
- 
-    aside{
-        
-        position: absolute;
+    #activites img {
+        width: 410px;
+        height: 170px;
     }
-    #hotel{
-        flex-direction:row;
+    #acti {
+        flex-direction: column;
+        margin-left: 20px;
     }
-    .ico {
-        flex-direction: row;
+    .port {
+        margin-top: 40px;
+        width: 410px;
+        height: 250px;
+        margin-left: 20px;
+    }  
+    .calanques {
+        margin-top: 40px;
+        width: 410px;
+        height: 250px;
+        margin-left: 20px;
     }
-    #Acti {
-        flex-direction: row;
+   .fort, .ile, .notreDame, .longchamp {
+        width: 410px;
+        height: 250px;
+        margin-left: 50px;
+        margin-top: 40px;
     }
-     footer {
-        flex-direction: row;
+    #legende {
+        font-size: 20px;
     }
- }
- 
     
+    
+    footer {
+        width: 150%;
+        height: 600px;
+    }
+    .bloc1 {
+       
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .bloc2 {
+        margin-top: 200px;
+        position: absolute;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .bloc3 {
+        margin-top: 400px;
+        position: absolute;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1500px) {
+    #logo {
+        margin-left: -10px;
+    }
+    #menus {
+      
+        display: flex;
+        justify-content: flex-end;
+         }
+    .blue {
+        margin-left: -50px;
+    }
+    .eco1 {
+        width: 150px;
+    }
+    .eco2 {
+        width: 150px;
+    }
+    .eco3 {
+        margin-top: 50px;
+        width: 150px;
+        margin-left: -400px;
+    }
+    .eco4 {
+        margin-top: 50px;
+    }
+    .heberetaside {
+        display: inline-block;
+        margin: 0;
+    }
+    aside {
+        display: flex;
+        width: 750px;
+        height: 500px;
+        margin-left: 0px;
+    }
+    h3 {
+        width: 100%;
+        font-size: 20px;
+    }
+    .fleche {
+        margin-left: 300px;
+    }
+    .popul {
+        margin-top: 100px;
+        margin-left: -350px;
+    }
+    .popul2 {
+        margin-top: 100px;
+        margin-left: 0px;
+        width: 350px;
+    }
+    .popul3 {
+        margin-top: 300px;
+        margin-left: -550px;
+    }
+    #hebergements {
+        width: 750px;
+           
+    }
+    .to {
+        padding-left: 50px;
+    }
+    .calanques {
+            margin-top: 500px;
+            margin-left: -790px;
+        }
+    
+    .to2 {
+            margin-top: 500px;
+            padding-left: 60px;
+        }
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .bloc2, .bloc3 {
+        margin-left: 0px;
+    }
+
+   
+    
+}
+
+
+
 
 
 
