@@ -129,9 +129,11 @@ button {
     font-size: 15px;
 }
 
-a:hover {
-    text-decoration: underline;
-    color: black;
+a:hover .titres_filtres {
+    background-color: #DEEBFF;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: -10px;
 }
 
 .ico {
@@ -201,8 +203,7 @@ a:hover {
     border-radius: 20px;
     margin-bottom: 0px;
     margin-top: 10px;
-    
-    }
+     }
 
 
 h2 {
@@ -212,11 +213,15 @@ h2 {
     padding-left: 40px;
 }
 
+h3 {
+    margin-top: 40px;
+}
 
 #hotel {
     display: flex;
     flex-wrap: wrap;
     border-radius: 20px;
+
 }
  
 
@@ -227,8 +232,8 @@ h2 {
     width: 260px;
     height: 210px;
     margin: 0;
-    padding: 0;
-    margin-top: 30px;
+    padding: 0px;
+    margin-top: 20px;
     margin-left: 40px;
     margin-right: 20px; 
 }
@@ -266,6 +271,7 @@ i.far {
     font-size: 15px;
     margin-left: 10px;
     margin-top: 3px;
+    
 }
 
 
@@ -286,9 +292,8 @@ h3 {
     font-weight: bold;
     font-size: 20px;
     padding-left: 40px;
-    padding-bottom: 0px;
     color: black;
-    padding-top: 5px;
+    padding-top: 0px;
    
    }
 
@@ -302,7 +307,9 @@ h3 {
     margin-top: 20px;
 }
 
-
+.popul {
+    margin-top: 0px;
+}
 
 .popul, .popul2, .popul3 {
     display: flex;
@@ -346,22 +353,40 @@ h3 {
 
 /* SECTION ACTIVITES */
 h5 {
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 5px;
 }
 #acti {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-column-gap: 0px;
+    grid-template-columns: repeat(4, 23%);
+    grid-column-gap: 20px;
     width: 100%;
+    
 }
 .to, .to2 {
     display: grid;
-    grid-gap: 10px;
-    margin-left: 20px;
+    grid-gap: 0px;
+   }
+.to {
+   margin-left: -25px;
+}
+.to2 {
+   
+}
+.calanques {
+   
+
+}
+.port {
+    margin-left: 0;
 }
 .port, .calanques, .fort, .ile, .notredame, .longchamp {
     border-radius: 25px;
-    box-shadow: 5px 5px 5px #DEEBFF;
+    width: 100%;
+    box-shadow: 0px 5px 5px #DEEBFF;
 }
 .port img, .calanques img {
     height: 390px;
@@ -394,7 +419,9 @@ h5 {
     border-radius: 25px 25px 0 0;
 }
 #legende {
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 10px;
 }
 
 /* FOOTER */
@@ -415,22 +442,37 @@ h4 {
 .foot {
     color: black;
 }
-
+.bloc1 {
+    margin-top: 20px;
+}
 .bloc2 {
+    margin-top: 20px;
     margin-left: 20%;
   }
 
 .bloc3 {
     margin-left: 20%;
+    margin-top: 20px;
 }
 
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 600px) {
-   #hebergements {
-       background-color: blue;
-       }
+@media only screen and (min-width: 321px) {
+    h1 {
+        font-size: 40px;
+    }
+    #hebergements {
+        background-color: yellow;
+    }
+}
+@media only screen and (min-width : 800px) {
+    h1 {
+        font-size: 20px;
+    }
+    #hebergements {
+        background-color: aqua;
+    }
 }
     
 
