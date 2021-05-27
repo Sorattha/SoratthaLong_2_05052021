@@ -14,14 +14,12 @@ body {
 /* header */
 
 #logo {
-    display: flex;
-   flex-direction: row;
     height: 40px;
     width: 80px;
 }
 
 #menus {
-    position: absolute;
+   position: absolute;
     width: 25%;
     right: 0px;
     top: 10px;
@@ -458,23 +456,700 @@ h4 {
 
 /* RESPONSIVE */
 
-@media only screen and (min-width: 321px) {
-    h1 {
-        font-size: 40px;
+@media screen and (min-width: 481px) and (max-width: 800px) {
+
+    body {
+        margin: 2px;
+        padding: 2px;
+        font-family: 'Raleway ', arial;
     }
+    header {
+        width: auto;
+    }
+    #logo{
+        width: 100px;
+        height: auto;
+        padding-top: 30px;
+        padding-left: 40px;
+        
+       }
+    #menus {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+    .inscrip {
+       float: right;
+       margin-top: -80px;
+       margin-left: -50px;
+       position: absolute;
+    }
+    .blue {
+        margin-top: -20px;
+        margin-left: 300px;
+        border-bottom: 3px solid blue;
+        border-top: none;
+        
+    }
+    .black {
+        margin-left: 100px;
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+    .inscrip, .black, .blue {
+        font-size: 20px;
+    }
+    .presentation { 
+        margin-top: 10px;
+        width: 70%;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+   
+   .point {
+       width: 100px;
+       height: 40px;
+       font-size: 25px;
+       text-align: center;
+       padding-top: 10px;
+       margin-left: 40px;
+       border-radius: 40px 0px 0px 40px;
+   }
+   
+   #search {
+       width: 650px;
+       height: 50px;
+      
+   }
+   .rech {
+    display: none;
+   }
+   .fas.fa-search {
+    display: block;
+    font-size: 20px;
+    padding-bottom: 30px;
+   }
+   button {
+      
+       height: 50px;
+       width: 150px;
+       border-radius: 40px;
+       margin-left: -10px;
+   }
+   ::placeholder {
+       font-size: 20px;
+   }
+   .icone {
+       width: 30px;
+       height: 30px;
+       font-size: 20px;
+       margin-top: -5px;
+   }
+   .titres_filtres {
+       font-size: 15px;
+       padding-top: 5px;
+       padding-left: 20px;
+   }
+   .filtre1 {
+       font-size: 20px;
+       margin-left: 20px;
+       padding-bottom: 20px;
+       margin-top: 0px;
+   }
+
+    .eco1 {
+        border: 5px solid;
+     margin-top: 50px;
+     height: 40px;
+     width: 200px;
+     margin-left: -70px;
+     border-radius: 80px;
+     }
+    .eco2 {
+        border: 5px solid;
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 200px;
+        height: 40px;
+        border-radius: 80px;
+    }
+    .eco3 {
+        border: 5px solid;
+        height: 40px;
+        width: 200px;
+        margin-top: 110px;
+        margin-left: -440px;
+        border-radius: 80px;
+    }
+    .eco4 {
+        border: 5px solid;
+        margin-top: 170px;
+        margin-left: -210px;
+        border-radius: 80px;
+        height: 40px;
+        width: 250px;
+    }
+    .infofiltres {
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+    .in {
+        border: 3px solid;
+        font-size: 15px;
+        width: 15px;
+        height: 15px;
+
+    }
+    .info {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    #popula {
+        border-radius: 0px;
+        margin-top: 0px;
+        width: 500px;
+        height: 800px;
+        margin-left: -10px;
+    }
+    #popula img {
+        width: 180px;
+        height: 180px;
+        padding-top: 0px;
+        padding-left: 10px;
+        border-radius: 40px 0px 0px 40px;
+    }
+    h3 {
+        font-size: 20px;
+        margin-left: -20px;
+    }
+    .fleche {
+        font-size: 20px;
+        margin-left: 500px;
+    }
+    .popul, .popul2, .popul3 {
+        width: 450px;
+        height: 190px;
+        border-radius: 40px;
+        margin-left: 20px;
+    }
+    #ho {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .nuit {
+        font-size: 15px;
+        padding-left: 20px;
+    }
+    .star2 {
+        font-size: 15px;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    .heberetaside {
+        display: inline-block;
+    }
+    #hebergements {
+        background-color: white;
+       width: 500px;
+       margin-left: 0px;
+
+    }
+    h2 {
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    #hotel {
+        margin-left: -10px;
+    }
+    .heberg {
+        
+        border-radius: 40px;
+        box-shadow: 3px 3px 3px 3px #F2F2F2;
+        height: 270px;
+        width: 450px;
+        margin-left: 20px;
+    }
+    .heberg img {
+        border-radius: 40px 40px 0px 0px;
+       width: 450px;
+       height: 170px;
+       padding-left: 0px;
+       padding-top: 0px;
+       }
+    figcaption {
+        font-size: 20px;
+    }
+    .prix {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .star {
+        font-size: 15px;
+    }
+
+    #activites {
+        width: 450px;
+    }
+    h5 {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    #activites img {
+        width: 450px;
+        height: 170px;
+        margin-left: -10px;
+    }
+
+    #acti {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    .port {
+        margin-top: 40px;
+        width: 450px;
+        height: 250px;
+        margin-left: 0px;
+    }  
+    .calanques {
+        margin-top: 20px;
+        width: 450px;
+        height: 250px;
+        margin-left: 20px;
+    }
+    .fort {
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 450px;
+        height: 250px;
+    }
+    .ile {
+        width: 450px;
+        height: 250px;
+        margin-left: 20px;
+    }
+    .calanques {
+        width: 450px;
+        height: 250px;
+        margin-left: 0px;
+
+    }
+    .notredame {
+        width: 450px;
+        height: 250px;
+        margin-left: 0px;
+    }
+    .longchamp {
+        width: 450px;
+        height: 250px;
+        margin-left: 0px;
+    }
+    #legende {
+        font-size: 20px;
+    }
+    
+    
+    footer {
+        width: 100%;
+        height: 600px;
+    }
+    .bloc1 {
+       
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .bloc2 {
+        padding-top: 30px;
+        margin-top: 200px;
+        position: absolute;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .bloc3 {
+        margin-top: 370px;
+        padding-top: 20px;
+        position: absolute;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
     #hebergements {
         background-color: yellow;
     }
-}
-@media only screen and (min-width : 800px) {
+    #logo {
+        width: 300px;
+        height: auto;
+        margin-top: 50px;
+    }
+    body {
+        margin: 2px;
+        padding: 2px;
+    }
+   
+    #menus {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
+    .inscrip {
+        margin-top: -150px;
+        position: absolute;
+        
+        margin-left: -100px;
+    }
+    .blue {
+        margin-top: 0px;
+        margin-left: 600px;
+        border-bottom: 3px solid blue;
+        border-top: none;
+        
+    }
+    .black {
+        
+        margin-top: 35px;
+        padding-left: 150px;
+    }
+    .inscrip, .black, .blue {
+        font-size: 50px;
+    }
+    .presentation { 
+        margin-top: 100px;
+        width: 70%;
+        font-size: 40px;
+        margin-left: 40px;
+    }
     h1 {
-        font-size: 20px;
+        font-size: 50px;
     }
+   .point {
+       width: 150px;
+       height: 110px;
+       font-size: 60px;
+       text-align: center;
+       padding-top: 40px;
+       margin-left: 40px;
+       border-radius: 40px 0px 0px 40px;
+   }
+   
+   #search {
+       width: 650px;
+       height: 150px;
+      
+   }
+   .rech {
+    display: none;
+   }
+   .fas.fa-search {
+    display: block;
+    font-size: 50px;
+   }
+   button {
+      
+       height: 150px;
+       width: 150px;
+       border-radius: 40px;
+       margin-left: -10px;
+   }
+   ::placeholder {
+       font-size: 40px;
+   }
+   .icone {
+       width: 80px;
+       height: 80px;
+       font-size: 60px;
+   }
+   .titres_filtres {
+       font-size: 40px;
+       padding-top: 30px;
+       padding-left: 20px;
+   }
+   .filtre1 {
+       font-size: 50px;
+       margin-left: 40px;
+       padding-bottom: 20px;
+   }
+
+    .eco1 {
+        border: 5px solid;
+     margin-top: 100px;
+     height: 130px;
+     width: 450px;
+     margin-left: -160px;
+     border-radius: 80px;
+     }
+    .eco2 {
+        border: 5px solid;
+        margin-top: 100px;
+        width: 400px;
+        height: 130px;
+        border-radius: 80px;
+    }
+    .eco3 {
+        border: 5px solid;
+        height: 130px;
+        width: 500px;
+        margin-top: 300px;
+        margin-left: -900px;
+        border-radius: 80px;
+    }
+    .eco4 {
+        border: 5px solid;
+        margin-top: 500px;
+        margin-left: -510px;
+        border-radius: 80px;
+        height: 130px;
+        width: 600px;
+    }
+    .infofiltres {
+        margin-left: 40px;
+        padding-top: 100px;
+    }
+    .in {
+        border: 3px solid;
+        font-size: 40px;
+        width: 40px;
+        height: 40px;
+
+    }
+    .info {
+        font-size: 40px;
+        padding-left: 20px;
+    }
+    #popula {
+        margin-top: 150px;
+        height: 1600px;
+        margin-left: 0px;
+       
+      
+    }
+    #popula img {
+        width: 350px;
+        height: 350px;
+        padding-top: 20px;
+        padding-left: 20px;
+        border-radius: 40px 0px 0px 40px;
+    }
+    h3 {
+        font-size: 50px;
+    }
+    .fleche {
+        font-size: 50px;
+        margin-left: 500px;
+        padding-top: 30px;
+    }
+    .popul, .popul2, .popul3 {
+        height: 400px;
+        border-radius: 40px;
+        width: 900px;
+    }
+    #ho {
+        font-size: 50px;
+        padding-left: 30px;
+    }
+    .nuit {
+        font-size: 40px;
+        padding-left: 40px;
+    }
+    .star2 {
+        font-size: 40px;
+        padding-top: 70px;
+        padding-left: 40px;
+    }
+    .heberetaside {
+        display: flex;
+        flex-direction: column;
+    }
+
     #hebergements {
-        background-color: aqua;
+        background-color: white;
+       width: 900px;
+       margin-left: -20px;
     }
-}
+    h2 {
+        font-size: 50px;
+    }
+    .heberg {
+        border: 3px;
+        box-shadow: 3px 3px 3px 3px #F2F2F2;
+        border-radius: 40px;
+        height: 600px;
+        width: 900px;
+        margin-bottom: 20px;
+    }
+    .heberg img {
+        border-radius: 40px 40px 0px 0px;
+       width: 900px;
+       height: 350px;
+       padding-left: 0px;
+       padding-top: 0px;
+       }
+    figcaption {
+        font-size: 40px;
+    }
+    .prix {
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    .star {
+        font-size: 40px;
+    }
+
+    #activites {
+        width: 1000px;
+    }
+    h5 {
+        font-size: 50px;
+    }
+    #activites img {
+        width: 900px;
+        height: 350px;
+    }
+    #acti {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .port {
+        margin-top: 40px;
+        width: 900px;
+        height: 450px;
+        margin-left: 20px;
+    }  
+    .calanques {
+        margin-top: 40px;
+        width: 900px;
+        height: 450px;
+        margin-left: 10px;
+    }
+    .fort {
+        width: 900px;
+        height: 450px;
+
+    }
+    .longchamp {
+        width: 900px;
+        height: 450px;
+        margin-left: 10px;
+
+    }
+    .ile {
+        margin-left: 30px;
+        width: 900px;
+        height: 450px;
+    }
+    .notredame {
+        margin-left: 10px;
+        width: 900px;
+        height: 450px;
+    }
+    #legende {
+        font-size: 40px;
+    }
     
+    
+    footer {
+        width: 1100px;
+        height: 1000px;
+    }
+    .bloc1 {
+       
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    .bloc2 {
+        margin-top: 350px;
+        position: absolute;
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    .bloc3 {
+        margin-top: 650px;
+        position: absolute;
+        margin-left: 20px;
+        font-size: 40px;
+    }
+   
+ }
+    }
+    
+    /* Smartphones (landscape) ----------- */
+    @media only screen and (min-width : 321px) {
+    /* Styles */
+    #hebergements {
+        background-color: yellow;
+    }
+    }
+    
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (max-width : 320px) {
+    /* Styles */
+    #hebergements {
+        background-color: yellow;
+    }
+    }
+    
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+    #hebergements {
+        background-color: rgb(255, 0, 106);
+    }
+    }
+    
+    /* iPads (landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+    #hebergements {
+        background-color: rgb(255, 0, 106);
+    }
+    }
+    
+    /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+    #hebergements {
+        background-color: rgb(255, 0, 106);
+    }
+    }
+    /**********
+    iPad 3
+    **********/
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    #hebergements {
+        background-color: rgb(255, 0, 106);
+    }
+    }
+    
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    #hebergements {
+        background-color: rgb(255, 0, 106);
+    }
+    }
+    /* Desktops and laptops ----------- */
+    @media only screen and (min-width : 1224px) {
+    /* Styles */
+    #hebergements {
+        background-color: rgb(0, 255, 42);
+    }
+    }
+    
+    /* Large screens ----------- */
+    @media only screen and (min-width : 1824px) {
+    /* Styles */
+    #hebergements {
+        background-color: rgb(21, 255, 0);
+    }
+    }
 
 
 
