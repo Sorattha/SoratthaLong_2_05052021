@@ -784,6 +784,7 @@ h4 {
     #hebergements {
         background-color: yellow;
     }
+   
     #logo {
         width: 300px;
         height: auto;
@@ -802,7 +803,7 @@ h4 {
     .inscrip {
         margin-top: -150px;
         position: absolute;
-        margin-left: 0px;
+        margin-left: -50px;
     }
     .blue {
         margin-top: 0px;
@@ -928,9 +929,9 @@ h4 {
         padding-left: 20px;
     }
     #popula {
-        margin-top: 150px;
+        margin-top: 50px;
         margin-left: 0px;
-        width: 100%;
+        width: 1200px;
         height: 100%; 
     }
     #popula img {
@@ -943,6 +944,7 @@ h4 {
  
     h3 {
         font-size: 50px;
+        padding-top: 20px;
         
     }
     .fleche {
@@ -952,10 +954,9 @@ h4 {
        
     }
     .popul, .popul2, .popul3 {
-        width: 100%;
+        width: 1100px;
         height: 100%;
         border-radius: 40px;
-       
         margin-top: 20px;
     }
     #ho {
@@ -979,7 +980,7 @@ h4 {
 
     #hebergements {
         background-color: white;
-       width: 100%;
+       width: 1200px;
        margin-left: -20px;
     }
     h2 {
@@ -989,7 +990,7 @@ h4 {
         border: 3px;
         box-shadow: 3px 3px 3px 3px #F2F2F2;
         border-radius: 40px;
-        width: 100%;
+        width: 1100px;
         height: 100%;
         margin-bottom: 20px;
     }
@@ -1018,7 +1019,7 @@ h4 {
         font-size: 50px;
     }
     #activites img {
-        width: 100%;
+        width: 1100px;
         height: 350px;
     }
     #acti {
@@ -1028,34 +1029,34 @@ h4 {
     }
     .port {
         margin-top: 40px;
-        width: 100%;
+        width: 1100px;
         height: 100%;
         
     }  
     .calanques {
         margin-top: 40px;
-        width: 100%;
+        width: 1100px;
         height: 100%;
         margin-left: 10px;
     }
     .fort {
-        width: 100%;
+        width: 1100px;
         height: 100%;
     }
     .longchamp {
-        width: 100%;
+        width: 1100px;
         height: 100%;
         margin-left: 10px;
 
     }
     .ile {
         margin-left: 30px;
-        width: 100%;
+        width: 1100px;
         height: 100%;
     }
     .notredame {
         margin-left: 10px;
-        width: 100%;
+        width: 1100px;
         height: 100%;
     }
     #legende {
@@ -1064,7 +1065,7 @@ h4 {
     
     
     footer {
-        width: 100%;
+        width: 1200px;
         height: 1100px;
     }
     .bloc1 {
