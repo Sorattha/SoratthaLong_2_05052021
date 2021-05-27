@@ -827,7 +827,8 @@ h4 {
         margin-left: 40px;
     }
     h1 {
-        font-size: 50px;
+        font-size: 60px;
+
     }
    .point {
        width: 150px;
@@ -881,7 +882,7 @@ h4 {
         border: 5px solid;
      margin-top: 100px;
      height: 130px;
-     width: 450px;
+     width: 500px;
      margin-left: -160px;
      border-radius: 80px;
      }
@@ -897,7 +898,7 @@ h4 {
         height: 130px;
         width: 500px;
         margin-top: 300px;
-        margin-left: -900px;
+        margin-left: -950px;
         border-radius: 80px;
     }
     .eco4 {
@@ -927,6 +928,7 @@ h4 {
         margin-top: 150px;
         height: 1600px;
         margin-left: 0px;
+        width: 1100px;
        
       
     }
@@ -937,18 +939,22 @@ h4 {
         padding-left: 20px;
         border-radius: 40px 0px 0px 40px;
     }
+ 
     h3 {
         font-size: 50px;
+        
     }
     .fleche {
         font-size: 50px;
         margin-left: 500px;
-        padding-top: 30px;
+        margin-top: -100px;
+       
     }
     .popul, .popul2, .popul3 {
         height: 400px;
         border-radius: 40px;
-        width: 900px;
+        width: 1000px;
+        margin-top: 20px;
     }
     #ho {
         font-size: 50px;
@@ -981,12 +987,12 @@ h4 {
         box-shadow: 3px 3px 3px 3px #F2F2F2;
         border-radius: 40px;
         height: 600px;
-        width: 900px;
+       width: 1000px;
         margin-bottom: 20px;
     }
     .heberg img {
         border-radius: 40px 40px 0px 0px;
-       width: 900px;
+       width: 1000px;
        height: 350px;
        padding-left: 0px;
        padding-top: 0px;
@@ -1003,13 +1009,13 @@ h4 {
     }
 
     #activites {
-        width: 1000px;
+        width: 1100px;
     }
     h5 {
         font-size: 50px;
     }
     #activites img {
-        width: 900px;
+        width: 1000px;
         height: 350px;
     }
     #acti {
@@ -1019,35 +1025,35 @@ h4 {
     }
     .port {
         margin-top: 40px;
-        width: 900px;
+        width: 1000px;
         height: 450px;
         margin-left: 20px;
     }  
     .calanques {
         margin-top: 40px;
-        width: 900px;
+        width: 1000px;
         height: 450px;
         margin-left: 10px;
     }
     .fort {
-        width: 900px;
+        width: 1000px;
         height: 450px;
 
     }
     .longchamp {
-        width: 900px;
+        width: 1000px;
         height: 450px;
         margin-left: 10px;
 
     }
     .ile {
         margin-left: 30px;
-        width: 900px;
+        width: 1000px;
         height: 450px;
     }
     .notredame {
         margin-left: 10px;
-        width: 900px;
+        width: 1000px;
         height: 450px;
     }
     #legende {
@@ -1057,7 +1063,7 @@ h4 {
     
     footer {
         width: 1100px;
-        height: 1000px;
+        height: 1100px;
     }
     .bloc1 {
        
