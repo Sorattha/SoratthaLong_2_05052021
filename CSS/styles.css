@@ -781,10 +781,7 @@ h4 {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles */
-    #hebergements {
-        background-color: yellow;
-    }
-   
+
     #logo {
         width: 300px;
         height: auto;
@@ -803,7 +800,7 @@ h4 {
     .inscrip {
         margin-top: -150px;
         position: absolute;
-        margin-left: -50px;
+        margin-left: 0px;
     }
     .blue {
         margin-top: 0px;
@@ -845,7 +842,7 @@ h4 {
    }
    
    #search {
-       width: 100%;
+       width: 500px;
        height: 150px;
       
    }
@@ -867,12 +864,12 @@ h4 {
        font-size: 40px;
    }
    .icone {
-       width: 80px;
-       height: 80px;
-       font-size: 60px;
+       width: 90px;
+       height: 90px;
+       font-size: 70px;
    }
    .titres_filtres {
-       font-size: 40px;
+       font-size: 50px;
        padding-top: 30px;
        padding-left: 20px;
    }
@@ -885,43 +882,43 @@ h4 {
     .eco1 {
         border: 5px solid;
      margin-top: 100px;
-     height: 130px;
-     width: 50%;
+     height: 150px;
+     width: 60%;
      margin-left: -160px;
      border-radius: 80px;
      }
     .eco2 {
         border: 5px solid;
         margin-top: 100px;
-        width: 40%;
-        height: 130px;
+        width: 50%;
+        height: 150px;
         border-radius: 80px;
     }
     .eco3 {
         border: 5px solid;
-        height: 130px;
-        width: 50%;
+        height: 150px;
+        width: 60%;
         margin-top: 300px;
-        margin-left: -900px;
+        margin-left: -1100px;
         border-radius: 80px;
     }
     .eco4 {
         border: 5px solid;
         margin-top: 500px;
-        margin-left: -480px;
+        margin-left: -580px;
         border-radius: 80px;
-        height: 130px;
-        width: 60%;
+        height: 150px;
+        width: 80%;
     }
     .infofiltres {
         margin-left: 40px;
         padding-top: 100px;
     }
     .in {
-        border: 3px solid;
-        font-size: 40px;
-        width: 40px;
-        height: 40px;
+        border: 3px solid #DEEBFF;
+        font-size: 50px;
+        width: 50px;
+        height: 50px;
 
     }
     .info {
@@ -981,10 +978,11 @@ h4 {
     #hebergements {
         background-color: white;
        width: 1200px;
-       margin-left: -20px;
+       margin-left: -10px;
     }
     h2 {
         font-size: 50px;
+        margin-left: 10px;
     }
     .heberg {
         border: 3px;
@@ -997,12 +995,12 @@ h4 {
     .heberg img {
         border-radius: 40px 40px 0px 0px;
         width: 100%;
-        height: 100%;
+        height: 400px;
        padding-left: 0px;
        padding-top: 0px;
        }
     figcaption {
-        font-size: 40px;
+        font-size: 50px;
     }
     .prix {
         font-size: 40px;
@@ -1020,7 +1018,7 @@ h4 {
     }
     #activites img {
         width: 1100px;
-        height: 350px;
+        height: 450px;
     }
     #acti {
         display: flex;
@@ -1031,10 +1029,11 @@ h4 {
         margin-top: 40px;
         width: 1100px;
         height: 100%;
+        margin-left: 20px;
         
     }  
     .calanques {
-        margin-top: 40px;
+        margin-top: 80px;
         width: 1100px;
         height: 100%;
         margin-left: 10px;
@@ -1042,58 +1041,64 @@ h4 {
     .fort {
         width: 1100px;
         height: 100%;
+        margin-top: 20px;
     }
     .longchamp {
         width: 1100px;
         height: 100%;
         margin-left: 10px;
-
+        margin-top: 40px;
     }
     .ile {
-        margin-left: 30px;
+        margin-left: 40px;
         width: 1100px;
         height: 100%;
+        margin-top: 60px;
     }
     .notredame {
+        margin-top: 20px;
         margin-left: 10px;
         width: 1100px;
         height: 100%;
     }
     #legende {
-        font-size: 40px;
+        font-size: 50px;
+        padding-bottom: 20px;
+        padding-top: 10px;
     }
     
     
     footer {
         width: 1200px;
-        height: 1100px;
+        height: 1300px;
+        margin-top: 80px;
     }
     .bloc1 {
        
         margin-left: 20px;
-        font-size: 40px;
+        font-size: 50px;
     }
     .bloc2 {
-        margin-top: 350px;
+        margin-top: 500px;
         position: absolute;
         margin-left: 20px;
-        font-size: 40px;
+        font-size: 50px;
     }
     .bloc3 {
-        margin-top: 650px;
+        margin-top: 900px;
         position: absolute;
         margin-left: 20px;
-        font-size: 40px;
+        font-size: 50px;
     }
    
  }
-    }
+    
     
     /* Smartphones (landscape) ----------- */
     @media only screen and (min-width : 321px) {
     /* Styles */
     #hebergements {
-        background-color: yellow;
+       
     }
     }
     
@@ -1101,32 +1106,145 @@ h4 {
     @media only screen and (max-width : 320px) {
     /* Styles */
     #hebergements {
-        background-color: yellow;
+       
     }
     }
     
     /* iPads (portrait and landscape) ----------- */
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     /* Styles */
-    #hebergements {
-        background-color: rgb(255, 0, 106);
-    }
-    }
-    
+        #logo {
+            width: 150px;
+            height: auto;
+            margin-top: 20px;
+        }
+        #menus {
+            width: 60%;
+            font-size: 25px;
+        }
+        .blue {
+            border-top: none;
+        }
+        h1, p {
+            font-size: 30px;
+            padding-top: 20px;
+        }
+        .barre {
+            padding-top: 20px;
+        }
+        .point {
+            width: 5%;
+            height: 50px;
+        }
+        #search {
+            width: 50%;
+            height: 60px;
+        }
+        button {
+            width: 20%;
+            height: 60px;
+        }
+        .fas.fa-map-marker-alt {
+            font-size: 30px;
+            padding-left: 5px;
+            
+        }
+        .fas.fa-search {
+            display: none;
+        }
+        .rech {
+            font-size: 25px;
+        }
+        #search::placeholder {
+            font-size: 20px;
+            color: grey;
+        }
+        .icone {
+            width: 40px;
+            height: 40px;
+            font-size: 30px;
+        }
+        .ico {
+            flex-direction: column;
+        }
+        .eco1, .eco2, .eco3, .eco4 {
+            height: 70px;
+            width: 30%;
+            margin-bottom: 20px;
+            border-radius: 80px;
+            margin-left: 100px;
+        }
+        .titres_filtres {
+            font-size: 20px;
+        }
+        .in {
+            width: 40px;
+            height: 40px;
+        }
+        .fas.fa-info {
+            font-size: 25px;
+            padding-top: 10px;
+        }
+        .info {
+            font-size: 20px;
+        }
+        .heberetaside {
+            flex-direction: column;
+        }
+        #popula {
+            margin-left: 0px;
+            width: 100%;
+        }
+       
+        .popu{
+            margin-left: 200px;
+            }
+        .fleche {
+            margin-top: -70px;
+        }
+        .popul, .popul2, .popul3 {
+            width: 70%;
+            height: 150px;
+        }
+        .nuit {
+            font-size: 20px;
+            padding-top: 5px;
+        }
+        #ho {
+            font-size: 20px;
+        }
+        .star2 {
+            padding-top: 5px;
+        }
+        .heberg {
+            width: 400px;
+            height: 250px;
+        }
+        .heberg img {
+            width: 390px;
+        }
+        figcaption {
+            font-size: 20px;
+        }
+        .prix {
+            margin-top: -10px;
+            font-size: 20px;
+        }
+        .star {
+            margin-top: -20px;
+            font-size: 20px;
+        }
+        }
+        
     /* iPads (landscape) ----------- */
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
     /* Styles */
-    #hebergements {
-        background-color: rgb(255, 0, 106);
-    }
-    }
+  
     
     /* iPads (portrait) ----------- */
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
     /* Styles */
-    #hebergements {
-        background-color: rgb(255, 0, 106);
-    }
+   
     }
     /**********
     iPad 3
