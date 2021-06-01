@@ -18,31 +18,29 @@ body {
     width: 80px;
 }
 
-#menus {
-   position: absolute;
-    width: 25%;
-    right: 0px;
-    top: 10px;
-}
-
-#menus li {
-    float: left;
-    padding: 4%;
-    margin: 0%; 
+.menu ul {
+    display: flex;
+    float: right;
+    margin-top: -20px;
+    margin-right: 50px;
 }
 
 .inscrip {
     color: blue;
+    float: right;
+    margin-top: 20px;
 }
 .blue {
     color: blue;
     border-top: 2px solid #0065FC;
-    margin-top: -40px;
-    padding-top: 45px;
-}
+    padding-top: 30px;
+    margin-top: -30px;
+    margin-right: 40px;
+    }
 
 .black {
     color: black;
+    margin-top: -5px;
 }
 
 a {
@@ -85,8 +83,7 @@ p {
 }
 
 #search {
-    
-    block-size: 40px;
+    height: 42px;
     border: 2px solid  #F2F2F2;
 }
 
@@ -104,6 +101,10 @@ button {
     margin-top: -2px;
     margin-left: -2px;
     
+}
+.fas.fa-search {
+    display: block;
+    margin-top: 20px;
 }
 
 
@@ -230,16 +231,12 @@ h3 {
 
 }
  
-
-
 .heberg {
     background-color: white;
     border-radius: 20px;
     width: 260px;
     height: 210px;
-    margin: 0;
-    padding: 0px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 40px;
     margin-right: 20px; 
 }
@@ -260,9 +257,9 @@ figcaption {
     margin-left: 10px;
 }
 
+
 i.far {
     color: grey;
-
 }
 
 
@@ -274,16 +271,13 @@ i.far {
 }
 .prix {
     color: black;
-    font-size: 15px;
+    font-size: 13px;
     margin-left: 10px;
     margin-top: 3px;
     
 }
 
-
-
 /* ASIDE */
-
 
 #popula {
     background-color: #F2F2F2;
@@ -307,10 +301,12 @@ h3 {
     border-radius: 20px 0px 0px 20px;
     padding-left: 5px;
     height: 140px;
-    width: 150px;
+   
+    padding-top: 5px;
+    
     }
 .popul2, .popul3 {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .popul {
@@ -319,10 +315,9 @@ h3 {
 
 .popul, .popul2, .popul3 {
     display: flex;
-    padding-top: 10px;
     background-color: white;
     border-radius: 20px;
-    height: 145px;
+    height: 150px;
     width: 350px;
 }
 
@@ -377,17 +372,24 @@ h5 {
     grid-gap: 0px;
    }
 .to {
-   margin-left: -25px;
+   margin-left: -20px;
+}
+.to2 {
+    margin-left: 40px;
 }
 
 .port {
-    margin-left: 0;
+  margin-left: 0;
+}
+.calanques {
+    margin-left: 60px;
 }
 .port, .calanques, .fort, .ile, .notredame, .longchamp {
     border-radius: 25px;
     width: 100%;
-    box-shadow: 0px 5px 5px #DEEBFF;
+    box-shadow: 0px 5px 5px #DEEBFF; 
 }
+
 .port img, .calanques img {
     height: 390px;
     object-fit: cover;
@@ -396,8 +398,8 @@ h5 {
 }
 .fort img {
     height: 182px;
-    object-fit: cover;
     width: 100%;
+    object-fit: cover;
     border-radius: 25px 25px 0 0;
 }
 .ile img {
@@ -466,40 +468,42 @@ h4 {
         height: auto;
         margin-top: 50px;
     }
-    body {
-        margin: 2px;
-        padding: 2px;
-    }
    
-    #menus {
-        position: relative;
+   .menu ul {
+       width: 100%;
+      
+   }
+    .menu ul li {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        width: 100%;
+        padding-top: 50px;
+        border-bottom: solid 4px #f2f2f2;
+        padding-bottom: 20px;
+       
+    }
+    .menu ul li:hover {
+        border-bottom: solid 4px #0065FC;
     }
     .inscrip {
-        margin-top: -150px;
-        position: absolute;
-        margin-left: 0px;
+        float: right;
+        margin-top: 80px;
+        margin-right: -150px;
         color: #0065FC;
     }
+    
     .blue {
-        margin-top: 0px;
-        margin-left: 800px;
+      
         color: #0065FC;
-        border-bottom: 3px solid blue;
         border-top: none;
         
     }
-    .black {
-        
-        margin-top: 35px;
-        padding-left: 200px;
-    }
+    
     .inscrip, .black, .blue {
         font-size: 50px;
     }
     .presentation { 
-        margin-top: 100px;
+        margin-top: 200px;
         width: 100%;
         font-size: 40px;
         margin-left: 40px;
@@ -510,10 +514,12 @@ h4 {
     }
     .barre {
         padding-top: 50px;
+        width: 1100px;
+        margin-left: 20px;
         
     }
    .point {
-       width: 40%;
+       width: 150px;
        height: 110px;
        font-size: 60px;
        text-align: center;
@@ -523,26 +529,26 @@ h4 {
    }
    
    #search {
-       width: 100%;
        height: 150px;
-      
+       width: 800px;
    }
    .rech {
-    display: none;
+       display: none;
    }
+   
    .fas.fa-search {
-    display: block;
-    font-size: 50px;
+       font-size: 50px;
    }
+
    button {
-      
        height: 150px;
-       width: 40%;
+       width: 200px;
        border-radius: 40px;
        margin-left: -10px;
    }
    ::placeholder {
        font-size: 40px;
+       padding-left: 20px;
    }
    .icone {
        width: 90px;
@@ -559,7 +565,18 @@ h4 {
        margin-left: 40px;
        padding-bottom: 20px;
    }
-
+   .eco-filters:hover {
+    background-color: #DEEBFF;
+    border-radius: 80px;
+    height: 40px;
+    transition: 500ms;
+    }
+    .eco-filters:hover .icone {
+    background-color: #0065FC;
+    }
+    .eco-filters:hover .fa-icone {
+    color: white;
+    }   
     .eco1 {
         border: 5px solid;
      margin-top: 100px;
@@ -615,15 +632,8 @@ h4 {
     .fleche {
         font-size: 50px;
         margin-left: 500px;
-        margin-top: -100px;
-     }  
-    
-    #popula {
-        width: 1200px;
-        height: 1000px;
-    }
-   
-
+        margin-top: -140px;
+     } 
     #hebergements {
         background-color: white;
        width: 1200px;
@@ -690,7 +700,7 @@ h4 {
         margin-top: 40px;
         width: 1100px;
         height: 600px;
-        margin-left: 10px;
+        margin-left: 20px;
     }
     .fort {
         width: 1100px;
@@ -700,7 +710,7 @@ h4 {
     .longchamp {
         width: 1100px;
         height: 600px;
-        margin-left: 10px;
+        margin-left: 0px;
         margin-top: 40px;
     }
     .ile {
@@ -711,7 +721,7 @@ h4 {
     }
     .notredame {
         margin-top: 40px;
-        margin-left: 10px;
+        margin-left: -10px;
         width: 1100px;
         height: 600px;
     }
@@ -749,142 +759,149 @@ h4 {
 
     /* iPads (portrait and landscape) ----------- */
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    /* Styles */
-        #logo {
-            width: 150px;
-            height: auto;
-            margin-top: 20px;
-        }
-        #menus {
-            width: 60%;
-            font-size: 25px;
-        }
-        .blue {
-            border-top: none;
-        }
-        h1, p {
-            font-size: 30px;
-            padding-top: 20px;
-        }
-        .barre {
-            padding-top: 20px;
-        }
-        .point {
-            width: 5%;
-            height: 50px;
-        }
-        #search {
-            width: 50%;
-            height: 60px;
-        }
-        button {
-            width: 20%;
-            height: 60px;
-        }
-        .fas.fa-map-marker-alt {
-            font-size: 30px;
-            padding-left: 5px;
-            
-        }
-        .fas.fa-search {
-            display: none;
-        }
-        .rech {
-            font-size: 25px;
-        }
-        #search::placeholder {
-            font-size: 20px;
-            color: grey;
-        }
-        .icone {
-            width: 40px;
-            height: 40px;
-            font-size: 30px;
-        }
-        .ico {
-            flex-direction: column;
-        }
-        .eco1, .eco2, .eco3, .eco4 {
-            height: 70px;
-            width: 30%;
-            margin-bottom: 20px;
-            border-radius: 80px;
-            margin-left: 100px;
-        }
-        .titres_filtres {
-            font-size: 20px;
-        }
-        .in {
-            width: 40px;
-            height: 40px;
-        }
-        .fas.fa-info {
-            font-size: 25px;
-            padding-top: 10px;
-        }
-        .info {
-            font-size: 20px;
-        }
-        .heberetaside {
-            flex-direction: column;
-        }
-        #popula {
-            margin-left: 0px;
-            width: 100%;
-        }
-       
-        .popu{
-            margin-left: 200px;
+        /* Styles */
+            #logo {
+                width: 150px;
+                height: auto;
+                margin-top: 20px;
             }
-        .fleche {
-            margin-top: -70px;
-        }
-        .popul, .popul2, .popul3 {
-            width: 70%;
-            height: 150px;
-        }
-        .nuit {
-            font-size: 20px;
-            padding-top: 5px;
-        }
-        #ho {
-            font-size: 20px;
-        }
-        .star2 {
-            padding-top: 5px;
-        }
-        .heberg {
-            width: 400px;
-            height: 250px;
-        }
-        .heberg img {
-            width: 390px;
-        }
-        figcaption {
-            font-size: 20px;
-        }
-        .prix {
-            margin-top: -10px;
-            font-size: 20px;
-        }
-        .star {
-            margin-top: -20px;
-            font-size: 20px;
-        }
-        }
+            .menu {
+                margin-top: -50px;
+            }
+            .blue {
+                border-top: none;
+                margin-top: -27px;
+            }
+            h1, p {
+                font-size: 30px;
+                padding-top: 20px;
+            }
+            .barre {
+                padding-top: 20px;
+            }
+            .point {
+                width: 5%;
+                height: 50px;
+            }
+            #search {
+                width: 50%;
+                height: 60px;
+            }
+            button {
+                width: 20%;
+                height: 60px;
+            }
+            .fas.fa-map-marker-alt {
+                font-size: 30px;
+                padding-left: 5px;
+                
+            }
+            .fas.fa-search {
+                display: none;
+            }
+            .rech {
+                font-size: 25px;
+            }
+            #search::placeholder {
+                font-size: 20px;
+                color: grey;
+            }
+            .icone {
+                width: 40px;
+                height: 40px;
+                font-size: 30px;
+            }
+            .ico {
+                flex-direction: column;
+            }
+            .eco1, .eco2, .eco3, .eco4 {
+                height: 70px;
+                width: 30%;
+                margin-bottom: 20px;
+                border-radius: 80px;
+                margin-left: 100px;
+            }
+            .titres_filtres {
+                font-size: 20px;
+            }
+            .in {
+                width: 40px;
+                height: 40px;
+            }
+            .fas.fa-info {
+                font-size: 25px;
+                padding-top: 10px;
+            }
+            .info {
+                font-size: 20px;
+            }
+            .heberetaside {
+                flex-direction: column;
+            }
+            #popula {
+                margin-left: 0px;
+            }
+           
+            .popu{
+                margin-left: 200px;
+                }
+            .fleche {
+                margin-top: -70px;
+            }
+            .popul, .popul2, .popul3 {
+                height: 150px;
+            }
+            .nuit {
+                font-size: 20px;
+                padding-top: 5px;
+            }
+            #ho {
+                font-size: 20px;
+            }
+            .star2 {
+                padding-top: 5px;
+            }
+            .heberg {
+                width: 400px;
+                height: 250px;
+            }
+            .heberg img {
+                width: 390px;
+            }
+            figcaption {
+                font-size: 20px;
+            }
+            .prix {
+                margin-top: -10px;
+                font-size: 20px;
+            }
+            .star {
+                margin-top: -20px;
+                font-size: 20px;
+            }
+            }
         @media only screen and (min-width: 481px) and (max-width: 760px) {
 
             #logo {
                 width: 100px;
                 height: auto;
                 padding-top: 10px;
-                padding-left: 20px;
-                
+                padding-left: 20px; 
                }
-            #menus {
-                margin-top: 20px;
-                display: flex;
-                margin-right: 180px;
+               .menu {
+                   margin-right: 50px;
+               }
+               .black {
+                margin-top: -15px;
+                padding-right: 20px;
+            }
+            .blue {
+                border-top: none;
+                margin-top: -37px;
+                
+            }
+            .inscrip {
+                margin-top: 25px;
             }
         
             
@@ -1182,7 +1199,7 @@ h4 {
                 margin-left: 0px;
             }
             .popul {
-                width: 400px;
+               width: 400px;
                 margin-top: 20px;
             }
             .popul2 {
@@ -1196,13 +1213,15 @@ h4 {
                 flex-wrap: wrap;
             }
         }
+        @media screen and (max-width: 480px) {
+            #logo {
+                width: 800px;
+            }
 
-        @media screen and (min-width : 360px) and (max-width: 479px) {
-          
-        }
             
         }
-            
+
+       
         
   
 
