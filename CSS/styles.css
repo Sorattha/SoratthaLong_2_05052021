@@ -569,7 +569,7 @@ h4 {
     background-color: #DEEBFF;
     border-radius: 80px;
     height: 150px;
-    transition: 500ms;
+    
     }
     .eco-filters:hover .icone {
     background-color: #0065FC;
