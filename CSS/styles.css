@@ -9,7 +9,9 @@ body {
     margin-right: 10px;
 }
 
-
+.fas.fa-star.un {
+    color: #f2f2f2;
+}
 
 /* header */
 
@@ -140,9 +142,11 @@ button {
 .eco-filters:hover .fa-icone {
     color: white;
 }
-.ico {
+.eco {
     display: flex;
-    justify-content: flex-start;
+}
+.ico {
+  
     margin-top: 10px;
 }
 .fa-icone {
@@ -153,9 +157,18 @@ button {
     font-weight: bold;
     margin-top: 0px;
 }
+.ico {
+    width: 100%;
+    display: flex;
+}
+
+.alleco {
+    display: flex;
+    
+}
 .eco1, .eco2, .eco3, .eco4 {
     display: flex;
-    flex-wrap: wrap;
+ 
     margin-left: 30px;
     color: #F2F2F2;
     block-size: 40px;
@@ -163,7 +176,6 @@ button {
     border-radius: 20px;
     border-left: none;
     height: 35px;
-    
   }
 
 
@@ -201,8 +213,9 @@ button {
 
 .heberetaside {
     display: flex;
-    flex-direction: row-reverse;    
+    flex-direction: row-reverse; 
     margin-left: 0px;
+    width: 100%;
 }
 
 #hebergements {
@@ -210,6 +223,7 @@ button {
     border-radius: 20px;
     margin-bottom: 0px;
     margin-top: 10px;
+   width: 100%;
      }
 
 
@@ -285,6 +299,7 @@ i.far {
     margin-top: 10px;
     height: 650px;
     margin-left: 50px;
+ 
  } 
  
 
@@ -301,7 +316,7 @@ h3 {
     border-radius: 20px 0px 0px 20px;
     padding-left: 5px;
     height: 140px;
-   
+    width: 150px;
     padding-top: 5px;
     
     }
@@ -362,8 +377,8 @@ h5 {
 }
 #acti {
     display: grid;
-    grid-template-columns: repeat(4, 23%);
-    grid-column-gap: 20px;
+    grid-template-columns: repeat(4, 24%);
+    grid-column-gap: 10px;
     width: 100%;
     
 }
@@ -371,22 +386,22 @@ h5 {
     display: grid;
     grid-gap: 0px;
    }
-.to {
-   margin-left: -20px;
-}
-.to2 {
-    margin-left: 40px;
-}
+   .to {
+    margin-left: -30px;
+ }
+ .to2 {
+     margin-left: 0px;
+ }
 
 .port {
   margin-left: 0;
 }
 .calanques {
-    margin-left: 60px;
+    margin-left: 40px;
 }
 .port, .calanques, .fort, .ile, .notredame, .longchamp {
     border-radius: 25px;
-    width: 100%;
+    width: 95%;
     box-shadow: 0px 5px 5px #DEEBFF; 
 }
 
@@ -458,769 +473,312 @@ h4 {
 }
 
 
-/* RESPONSIVE */
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* Styles */
-
+@media screen and (min-width: 769px) and (max-width: 1455px) {
     #logo {
-        width: 300px;
-        height: auto;
-        margin-top: 50px;
-    }
-   
-   .menu ul {
-       width: 100%;
-      
-   }
-    .menu ul li {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        padding-top: 50px;
-        border-bottom: solid 4px #f2f2f2;
-        padding-bottom: 20px;
-       
-    }
-    .menu ul li:hover {
-        border-bottom: solid 4px #0065FC;
-    }
-    .inscrip {
-        float: right;
-        margin-top: 80px;
-        margin-right: -150px;
-        color: #0065FC;
-    }
-    
-    .blue {
-      
-        color: #0065FC;
-        border-top: none;
-        
-    }
-    
-    .inscrip, .black, .blue {
-        font-size: 50px;
-    }
-    .presentation { 
-        margin-top: 200px;
-        width: 100%;
-        font-size: 40px;
-        margin-left: 40px;
-    }
-    h1 {
-        font-size: 60px;
-        padding-bottom: 20px;
-    }
-    .barre {
-        padding-top: 50px;
-        width: 1100px;
-        margin-left: 20px;
-        
-    }
-   .point {
-       width: 150px;
-       height: 110px;
-       font-size: 60px;
-       text-align: center;
-       padding-top: 40px;
-       margin-left: 40px;
-       border-radius: 40px 0px 0px 40px;
-   }
-   
-   #search {
-       height: 150px;
-       width: 800px;
-   }
-   .rech {
-       display: none;
-   }
-   
-   .fas.fa-search {
-       font-size: 50px;
-   }
-
-   button {
-       height: 150px;
-       width: 200px;
-       border-radius: 40px;
-       margin-left: -10px;
-   }
-   ::placeholder {
-       font-size: 40px;
-       padding-left: 20px;
-   }
-   .icone {
-       width: 90px;
-       height: 90px;
-       font-size: 70px;
-   }
-   .titres_filtres {
-       font-size: 50px;
-       padding-top: 30px;
-       padding-left: 20px;
-   }
-   .filtre1 {
-       font-size: 50px;
-       margin-left: 40px;
-       padding-bottom: 20px;
-   }
-   .eco-filters:hover {
-    background-color: #DEEBFF;
-    border-radius: 80px;
-    height: 150px;
-    
-    }
-    .eco-filters:hover .icone {
-    background-color: #0065FC;
-    }
-    .eco-filters:hover .fa-icone {
-    color: white;
-    }   
-    .eco1 {
-        border: 5px solid;
-     margin-top: 100px;
-     height: 150px;
-     width: 60%;
-     margin-left: -160px;
-     border-radius: 80px;
-     }
-    .eco2 {
-        border: 5px solid;
-        margin-top: 100px;
-        width: 50%;
-        height: 150px;
-        border-radius: 80px;
-    }
-    .eco3 {
-        border: 5px solid;
-        height: 150px;
-        width: 60%;
-        margin-top: 300px;
-        margin-left: -1100px;
-        border-radius: 80px;
-    }
-    .eco4 {
-        border: 5px solid;
-        margin-top: 500px;
-        margin-left: -580px;
-        border-radius: 80px;
-        height: 150px;
-        width: 80%;
-    }
-    .infofiltres {
-        margin-left: 40px;
-        padding-top: 100px;
-    }
-    .in {
-        border: 3px solid #DEEBFF;
-        font-size: 50px;
-        width: 50px;
-        height: 50px;
-
-    }
-    .info {
-        font-size: 40px;
-        padding-left: 20px;
-    }
- 
-    h3 {
-        font-size: 60px;
-        padding-top: 20px;
-        
-    }
-    .fleche {
-        font-size: 50px;
-        margin-left: 500px;
-        margin-top: -140px;
-     } 
-    #hebergements {
-        background-color: white;
-       width: 1200px;
-       margin-left: -10px;
-       margin-top: 200px;
-    }
-    h2 {
-        font-size: 60px;
-        margin-left: 10px;
-    }
-    .heberg {
-        border: 3px;
-        box-shadow: 3px 3px 3px 3px #F2F2F2;
-        border-radius: 40px;
-        width: 1100px;
-        height: 100%;
-        margin-bottom: 40px;
-    }
-    .heberg img {
-        border-radius: 40px 40px 0px 0px;
-        width: 100%;
-        height: 400px;
-       padding-left: 0px;
-       padding-top: 0px;
-       }
-    figcaption {
-        font-size: 50px;
-    }
-    .prix {
-        font-size: 40px;
-        padding-top: 10px;
-    }
-    .star {
-        font-size: 40px;
-    }
-
-    #activites {
-        width: 1100px;
-    }
-    h5 {
-        font-size: 60px;
-        margin-left: 40px;
-    }
-    #activites img {
-        width: 1100px;
-        height: 450px;
-        border-radius: 40px 40px 0px 0px;
-        margin-left: -10px;
-    }
-    #acti {
+        width: 100px;
+    } 
+    .heberetaside {
         display: flex;
         flex-direction: column;
+    }
+    #popula {
+        margin: 0;
+    }
+    .heberg {
         margin-left: 20px;
     }
-    .port {
-        margin-top: 40px;
-        width: 1100px;
-        height: 600px;
-        margin-left: 20px;
-        border-radius: 40px;
-        
-    }  
-    .calanques {
-        margin-top: 40px;
-        width: 1100px;
-        height: 600px;
-        margin-left: 20px;
+    #acti {
+        width: 100%;
     }
-    .fort {
-        width: 1100px;
-        height: 600px;
-        margin-top: 40px;
-    }
-    .longchamp {
-        width: 1100px;
-        height: 600px;
-        margin-left: 0px;
-        margin-top: 40px;
-    }
-    .ile {
-        margin-left: 40px;
-        width: 1100px;
-        height: 600px;
-        margin-top: 40px;
-    }
-    .notredame {
-        margin-top: 40px;
-        margin-left: -10px;
-        width: 1100px;
-        height: 600px;
-    }
-    #legende {
-        font-size: 50px;
-        padding-top: 40px;
-        margin-left: 20px;
     }
     
+   
+ 
+ @media screen and (min-width: 601px) and (max-width: 768px) {
+     #logo {
+         width: 100px;
+     }
+     .menu {
+         margin-top: -10px;
+     }
+     .blue {
+         border-top: none;
+     }
+     .inscrip {
+         margin-top: 10px;
+     }
+     .eco4 {
+         
+         margin-top: 50px;
+         margin-left: -455px;
+     }
+    .heberetaside {
+        flex-direction: column;
+    } 
+    .heberg {
+        margin-left: 10px;
+    }       
+    #popula {
+        margin: 0;
+    }
     
     footer {
-        width: 1200px;
-        height: 1300px;
-        margin-top: 80px;
+        flex-direction: column;
     }
-    .bloc1 {
-       
-        margin-left: 20px;
-        font-size: 50px;
+    .bloc2, .bloc3 {
+        margin: 0;
     }
-    .bloc2 {
-        margin-top: 500px;
-        position: absolute;
-        margin-left: 20px;
-        font-size: 50px;
-    }
-    .bloc3 {
-        margin-top: 900px;
-        position: absolute;
-        margin-left: 20px;
-        font-size: 50px;
-    }
-   
+    
+     
  }
-
-    /* iPads (portrait and landscape) ----------- */
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-        /* Styles */
-            #logo {
-                width: 150px;
-                height: auto;
-                margin-top: 20px;
-            }
-            .menu {
-                margin-top: -50px;
-            }
-            .blue {
-                border-top: none;
-                margin-top: -27px;
-            }
-            h1, p {
-                font-size: 30px;
-                padding-top: 20px;
-            }
-            .barre {
-                padding-top: 20px;
-            }
-            .point {
-                width: 5%;
-                height: 50px;
-            }
-            #search {
-                width: 50%;
-                height: 60px;
-            }
-            button {
-                width: 20%;
-                height: 60px;
-            }
-            .fas.fa-map-marker-alt {
-                font-size: 30px;
-                padding-left: 5px;
-                
-            }
-            .fas.fa-search {
-                display: none;
-            }
-            .rech {
-                font-size: 25px;
-            }
-            #search::placeholder {
-                font-size: 20px;
-                color: grey;
-            }
-            .icone {
-                width: 40px;
-                height: 40px;
-                font-size: 30px;
-            }
-            .ico {
-                flex-direction: column;
-            }
-            .eco1, .eco2, .eco3, .eco4 {
-                height: 70px;
-                width: 30%;
-                margin-bottom: 20px;
-                border-radius: 80px;
-                margin-left: 100px;
-            }
-            .titres_filtres {
-                font-size: 20px;
-            }
-            .in {
-                width: 40px;
-                height: 40px;
-            }
-            .fas.fa-info {
-                font-size: 25px;
-                padding-top: 10px;
-            }
-            .info {
-                font-size: 20px;
-            }
-            .heberetaside {
-                flex-direction: column;
-            }
-            #popula {
-                margin-left: 0px;
-            }
-           
-            .popu{
-                margin-left: 200px;
-                }
-            .fleche {
-                margin-top: -70px;
-            }
-            .popul, .popul2, .popul3 {
-                height: 150px;
-            }
-            .nuit {
-                font-size: 20px;
-                padding-top: 5px;
-            }
-            #ho {
-                font-size: 20px;
-            }
-            .star2 {
-                padding-top: 5px;
-            }
-            .heberg {
-                width: 400px;
-                height: 250px;
-            }
-            .heberg img {
-                width: 390px;
-            }
-            figcaption {
-                font-size: 20px;
-            }
-            .prix {
-                margin-top: -10px;
-                font-size: 20px;
-            }
-            .star {
-                margin-top: -20px;
-                font-size: 20px;
-            }
-            }
-        @media only screen and (min-width: 481px) and (max-width: 760px) {
-
+        @media screen and (max-width: 600px) {
+            
             #logo {
                 width: 100px;
                 height: auto;
-                padding-top: 10px;
-                padding-left: 20px; 
-               }
-               .menu {
-                   margin-right: 50px;
-               }
-               .black {
-                margin-top: -15px;
-                padding-right: 20px;
+                margin-left: 10px;
+               margin-top: 10px;
             }
-            .blue {
-                border-top: none;
-                margin-top: -37px;
-                
+            .menu {
+                margin-top: 40px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                font-size: 20px;
+            }
+            .black {
+                margin-top: -8px;
+                margin-left: 10px;
             }
             .inscrip {
-                margin-top: 25px;
-            }
-        
-            
-            .inscrip, .black, .blue {
-                font-size: 15px;
-            }
-            .presentation { 
-                margin-top: 10px;
-                width: 100%;
                 font-size: 20px;
-                margin-left: 20px;
-                margin-bottom: 40px;
             }
-            h1 {
-                font-size: 25px;
+          
+            .blue {
+                border-top: none;            
             }
-           
-           .point {
-               width: 100px;
-               height: 60px;
-               font-size: 25px;
-               text-align: center;
-               padding-top: 10px;
-               margin-left: 40px;
-               border-radius: 40px 0px 0px 40px;
-           }
-           
-           #search {
-               width: 500px;
-               height: 70px;
-              
-           }
-           .rech {
-            display: none;
-           }
-           .fas.fa-search {
-            display: block;
-            font-size: 20px;
-            padding-bottom: 30px;
-           }
-           button {
-              
-               height: 70px;
-               width: 150px;
-               border-radius: 40px;
-               margin-left: -10px;
-           }
-           ::placeholder {
-               font-size: 20px;
-           }
-           .icone {
-               width: 30px;
-               height: 30px;
-               font-size: 20px;
-               margin-top: -5px;
-           }
-           .titres_filtres {
-               font-size: 15px;
-               padding-top: 5px;
-               padding-left: 20px;
-           }
-           .filtre1 {
-               font-size: 20px;
-               margin-left: 20px;
-               padding-bottom: 20px;
-               margin-top: 0px;
-           }
-        
-            .eco1 {
-                border: 3px solid;
-             margin-top: 50px;
-             height: 40px;
-             width: 200px;
-             margin-left: -70px;
-             border-radius: 80px;
-             }
-            .eco2 {
-                border: 3px solid;
-                margin-top: 50px;
-                margin-left: 20px;
-                width: 200px;
-                height: 40px;
-                border-radius: 80px;
-            }
-            .eco3 {
-                border: 3px solid;
-                height: 40px;
-                width: 200px;
-                margin-top: 110px;
-                margin-left: -435px;
-                border-radius: 80px;
-            }
-            .eco4 {
-                border: 3px solid;
-                margin-top: 170px;
-                margin-left: -205px;
-                border-radius: 80px;
-                height: 40px;
-                width: 250px;
-            }
-            .infofiltres {
+            .presentation {
+                padding-top: -20px;
                 margin-left: 10px;
-                padding-top: 10px;
             }
-            .in {
-                border: 3px solid #DEEBFF;
-                font-size: 15px;
-                width: 15px;
-                height: 15px;
-        
+            .barre {
+                margin-left: 10px;
+                margin-right: 10px;
             }
-            .info {
+            .point {
+                width: 50px;
+                height: 40px;
+                text-align: center;
+                border-radius: 20px 0px 0px 20px;
+            }
+            .fas.fa-map-marker-alt {
+                margin-right: 10px;
                 font-size: 20px;
-                padding-left: 20px;
+                margin-top: 5px;
             }
-            #popula {
-                border-radius: 0px;
+            #search {
+                height: 50px;
+                width: 400px;
+            }
+            button {
+            height: 50px;
+            width: 70px;
+            border-radius: 20px;
+            margin-left: -10px;
+            }
+            .fas.fa-search {
                 margin-top: 0px;
-                width: 500px;
-                height: 800px;
-                margin: 0;
-            }
-            #popula img {
-                width: 180px;
-                height: 180px;
-                padding-top: 0px;
-                padding-left: 10px;
-                border-radius: 40px 0px 0px 40px;
-            }
-            h3 {
-                font-size: 20px;
-                margin-left: -20px;
-            }
-            .fleche {
-                font-size: 20px;
-                margin-left: 500px;
-            }
-            .popul, .popul2, .popul3 {
-                width: 450px;
-                height: 190px;
-                border-radius: 40px;
-                margin-left: 20px;
-            }
-            #ho {
-                font-size: 20px;
-                padding-left: 10px;
-            }
-            .nuit {
-                font-size: 15px;
-                padding-left: 20px;
-            }
-            .star2 {
-                font-size: 15px;
-                padding-top: 50px;
-                padding-left: 20px;
-            }
-            .heberetaside {
-                display: inline-block;
-            }
-            #hebergements {
-               width: 500px;
-               margin: 0;
-        
-            }
-            h2 {
-                font-size: 20px;
-                margin-left: -10px;
-            }
-            #hotel {
-                margin-left: -10px;
-            }
-            .heberg {
-                
-                border-radius: 40px;
-                box-shadow: 3px 3px 3px 3px #F2F2F2;
-                height: 270px;
-                width: 450px;
-                margin-left: 20px;
-            }
-            .heberg img {
-                border-radius: 40px 40px 0px 0px;
-               width: 450px;
-               height: 170px;
-               padding-left: 0px;
-               padding-top: 0px;
-               }
-            figcaption {
-                font-size: 20px;
-            }
-            .prix {
-                font-size: 15px;
-                padding-top: 10px;
-            }
-            .star {
                 font-size: 15px;
             }
-        
-            #activites {
-                width: 450px;
+            .rech {
+                display: none;
             }
-            h5 {
+            .icone {
+                width: 30px;
+                height: 30px;
                 font-size: 20px;
-                margin-left: 20px;
+                margin-top: -5px;
             }
-            #activites img {
-                width: 450px;
-                height: 170px;
-                margin-left: -10px;
-            }
-        
-            #acti {
-                display: flex;
-                flex-direction: column;
-                margin-left: 20px;
-            }
-            .port {
-                margin-top: 40px;
-                width: 450px;
-                height: 250px;
-                margin-left: -5px;
-            }  
-            .calanques {
-                margin-top: 20px;
-                width: 450px;
-                height: 250px;
-                margin-left: 20px;
-            }
-            .fort {
-                margin-top: 20px;
-                margin-left: 20px;
-                width: 450px;
-                height: 250px;
-            }
-            .ile {
-                width: 450px;
-                height: 250px;
-                margin-left: 20px;
-            }
-            .calanques {
-                width: 450px;
-                height: 250px;
-                margin-left: 0px;
-        
-            }
-            .notredame {
-                width: 450px;
-                height: 250px;
-                margin-left: 0px;
-            }
-            .longchamp {
-                width: 450px;
-                height: 250px;
-                margin-left: 0px;
-            }
-            #legende {
-                font-size: 20px;
-            }
-            
-            
-            footer {
+            .titres_filtres {
+                font-size: 15px;
+                padding-left: 5px;
+                padding-right: 5px;
                 width: 100%;
-                height: 600px;
             }
-            .bloc1 {
-               
-                margin-left: 20px;
+            .filtre1 {
                 font-size: 20px;
+                margin-left: 10px;
+                padding-bottom: 0px;
             }
-            .bloc2 {
-                padding-top: 30px;
-                margin-top: 200px;
-                position: absolute;
-                margin-left: 20px;
-                font-size: 20px;
-            }
-            .bloc3 {
-                margin-top: 370px;
-                padding-top: 20px;
-                position: absolute;
-                margin-left: 20px;
-                font-size: 20px;
-            }
-        } 
-        
-        @media screen and (min-width: 761px) and (max-width: 1500px) {
-            #menus {
-                display: flex;
-                margin-right: 150px;
-            }
-            .heberetaside {
+            .eco-filters:hover {
+             background-color: #DEEBFF;
+             border-radius: 80px;
+             height: 150px;
+             
+             }
+             .eco-filters:hover .icone {
+             background-color: #0065FC;
+             }
+             .eco-filters:hover .fa-icone {
+             color: white;
+             }  
+            .ico {
                 flex-direction: column;
             }
-            #popula {
-                height: 650px;
+           
+           .eco1, .eco2 {
+               display: flex;
+               flex-wrap: wrap;
+           }
+             .eco1 {
+                border: 3px solid;
+                height: 40px;
+                margin: 0;
+                border-radius: 80px;
+                width: 50%;
+                }
+               .eco2 {
+                   border: 3px solid;
+                   width: 40%;
+                   height: 40px;
+                   border-radius: 80px;
+                   margin-left: 10px;
+               }
+               .eco3 {
+                border: 3px solid;
+                height: 40px;
                 margin-left: 0px;
+                border-radius: 80px;
+                width: 45%;
+                margin-top: 10px;
             }
-            .popul {
-               width: 400px;
-                margin-top: 20px;
+                .eco4 {
+                    margin-top: 10px;
+                    margin-left: 0px;
+                    height: 40px;
+                    width: 60%;
+                    
+                }
+                .heberetaside {
+                    flex-direction: column;
+                }
+                #popula {
+                    width: 100%;
+                    margin-left: 0px;
+                    border-radius: 0px;
+                }
+                .populaire {
+                    margin-left: -10px;
+                    margin-top: 10px;
+                }
+                .popul, .popul2, .popul3 {
+                    margin-left: 10px;
+                    width: 95%;
+                }
+                #hebergements {
+                    background-color: white;
+                }
+                .heberg {
+                    width: 100%;
+                    height: auto;
+                    margin: 0px;
+                    margin-bottom: 10px;
+                    border: 3px;
+                    box-shadow: 0px 3px 3px 0px #F2F2F2;
+                    border-radius: 40px;
+                }
+                .heberg img {
+                    width: 95%;
+                    margin-left: 10px;
+                    border-radius: 20px 20px 0px 0px;
+                }
+                h2 {
+                    margin-left: -20px;
+                }
+                figcaption {
+                    font-size: 16px;
+                }
+                .prix, .star {
+                    font-size: 15px;
+                }
+                h3 {
+                    margin-left: -20px;
+                    margin-top: 10px;
+                }
+                #acti {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                }
+                h5 {
+                    font-size: 20px;
+                }
+                #activites img {
+                    width: 100%;
+                    height: 150px;
+                    border-radius: 20px 20px 0px 0px;
+                    
+                }
+                .port {
+                    margin-top: 10px;
+                    width: 100%;
+                    border-radius: 20px; 
+                }  
+               
+                .calanques {
+                    margin-top: 5px;
+                    width: 100%;
+                    margin-left: 0px;
+                    border-radius: 20px;
+                    }
+                .fort {
+                    margin-top: 5px;
+                    width: 96%;
+                    margin-left: 20px;
+                    border-radius: 20px;
+                }
+                .longchamp {
+                    margin-top: 5px;
+                   margin-left: 0px;
+                    border-radius: 20px;
+                    margin-bottom: 40px;
+                    width: 100%;
+                }
+                .ile {
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    margin-left: 20px;
+                    width: 96%;
+                    border-radius: 20px;
+                }
+                .notredame {
+                    margin-top: 5px;
+                    margin-left: 0px;
+                    border-radius: 20px;
+                    width: 100%;
+                }
+                
+                #legende {
+                    font-size: 20px;
+                   
+                    margin-left: 20px;
+                }
+                footer {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .bloc1 {
+                    margin-left: -10px;
+                }
+                .bloc2, .bloc3 {
+                    margin-left: -10px;
+                }
             }
-            .popul2 {
-                width: 400px;
-            }
-            .popul3 {
-                width: 400px;
-            }
-            .heberg {
-                display: flex;
-                flex-wrap: wrap;
-            }
-        }
-        @media screen and (max-width: 480px) {
-            #logo {
-                width: 800px;
-            }
+           
 
             
-        }
-
+        
+     
        
         
   
