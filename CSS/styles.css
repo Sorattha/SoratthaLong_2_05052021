@@ -86,6 +86,7 @@ p {
 
 #search {
     height: 42px;
+    width: 200px;
     border: 2px solid  #F2F2F2;
 }
 
@@ -100,8 +101,9 @@ button {
     color: white;
     border-radius: 0px 12px 12px 0px;
     height: 42px;
-    margin-top: -2px;
-    margin-left: -2px;
+    padding-top: 10px;
+    margin-left: -5px;
+    padding-left: 10px;
     
 }
 .fas.fa-search {
@@ -112,6 +114,8 @@ button {
 
 .rech {
     color: white;
+    margin-top: -8px;
+    margin-left: -10px;
 }
 
 /* FILTRES */
@@ -153,7 +157,7 @@ button {
     color: #0065FC;
 }
 
-.aco {
+.filtre1 {
     font-weight: bold;
     margin-top: 0px;
 }
