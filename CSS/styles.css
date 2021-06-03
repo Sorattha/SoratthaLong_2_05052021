@@ -472,8 +472,20 @@ h4 {
     margin-top: 20px;
 }
 
-
-@media screen and (min-width: 769px) and (max-width: 1455px) {
+@media screen and (min-width: 981px) and (max-width: 1460px) {
+    .heberetaside {
+        display: flex;
+        flex-direction: column;
+    }
+    #popula {
+        margin: 0;
+    }
+    .popul, .popul2, .popul3 {
+        width: 90%;
+        margin-left: 30px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 980px) {
     #logo {
         width: 100px;
     } 
@@ -484,12 +496,50 @@ h4 {
     #popula {
         margin: 0;
     }
-    .heberg {
-        margin-left: 20px;
+    .popul, .popul2, .popul3 {
+        width: 90%;
+        margin-left: 30px;
     }
-    #acti {
+    .heberg {
+        margin-left: 40px;
+        
+    }
+    #activites {
         width: 100%;
     }
+    #acti {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);  
+    }
+    .port {
+        width: 100%;
+        margin-left: 0;
+    }
+    .fort {
+        width: 97%;
+        margin-left: 30px;
+    }
+    .ile {
+        width: 97%;
+        margin-left: 30px;
+    }
+    .calanques {
+        width: 100%;
+        margin-left: 0;
+    }
+    .notredame {
+        width: 100%;
+        margin-left: 0;
+    }
+    .longchamp {
+        width: 100%;
+        margin-left: 0;
+    }
+    .port img, .fort img, .ile img, .calanques img, .notredame img, .longchamp img{
+        height: 200px;
+        width: 100%;
+    }
+  
     }
     
    
@@ -521,7 +571,46 @@ h4 {
     #popula {
         margin: 0;
     }
-    
+    .popul, .popul2, .popul3 {
+        width: 90%;
+        margin-left: 30px;
+    }
+    #activites {
+        width: 100%;
+    }
+    #acti {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);  
+    }
+    .port {
+        width: 100%;
+        margin-left: 0;
+    }
+    .fort {
+        width: 96%;
+        margin-left: 30px;
+    }
+    .ile {
+        width: 96%;
+        margin-left: 30px;
+    }
+    .calanques {
+        width: 100%;
+        margin-left: 0;
+    }
+    .notredame {
+        width: 100%;
+        margin-left: 0;
+    }
+    .longchamp {
+        width: 100%;
+        margin-left: 0;
+    }
+    .port img, .fort img, .ile img, .calanques img, .notredame img, .longchamp img{
+        height: 200px;
+        width: 100%;
+    }
+  
     footer {
         flex-direction: column;
     }
@@ -540,26 +629,40 @@ h4 {
                margin-top: 10px;
             }
             .menu {
-                margin-top: 40px;
+                margin-top: 50px;
                 width: 100%;
                 display: flex;
                 justify-content: center;
                 font-size: 20px;
             }
+            .menu ul {
+                width: 100%;
+            }
+            .menu ul li {
+                width: 100%;
+              
+                border-bottom: solid 3px #f2f2f2;
+            }
+            .menu ul li:hover {
+                border-bottom: 3px solid #0065FC;
+            }
             .black {
                 margin-top: -8px;
                 margin-left: 10px;
+                width: 100%; 
             }
             .inscrip {
                 font-size: 20px;
             }
           
             .blue {
-                border-top: none;            
+                border-top: none; 
+                width: 100%;          
             }
             .presentation {
-                padding-top: -20px;
-                margin-left: 10px;
+                margin-top: -20px;
+                margin-left: 15px;
+                margin-right: 20px;
             }
             .barre {
                 margin-left: 10px;
@@ -598,6 +701,7 @@ h4 {
                 height: 30px;
                 font-size: 20px;
                 margin-top: -5px;
+                margin-left: -5px;
             }
             .titres_filtres {
                 font-size: 15px;
@@ -613,7 +717,7 @@ h4 {
             .eco-filters:hover {
              background-color: #DEEBFF;
              border-radius: 80px;
-             height: 150px;
+             height: 40px;
              
              }
              .eco-filters:hover .icone {
@@ -625,7 +729,9 @@ h4 {
             .ico {
                 flex-direction: column;
             }
-           
+           .filtre1 {
+               margin-left: 15px;
+           }
            .eco1, .eco2 {
                display: flex;
                flex-wrap: wrap;
@@ -633,7 +739,7 @@ h4 {
              .eco1 {
                 border: 3px solid;
                 height: 40px;
-                margin: 0;
+                margin-left: 10px;
                 border-radius: 80px;
                 width: 50%;
                 }
@@ -647,70 +753,80 @@ h4 {
                .eco3 {
                 border: 3px solid;
                 height: 40px;
-                margin-left: 0px;
+                margin-left: 10px;
                 border-radius: 80px;
                 width: 45%;
                 margin-top: 10px;
             }
                 .eco4 {
                     margin-top: 10px;
-                    margin-left: 0px;
+                    margin-left: 10px;
                     height: 40px;
                     width: 60%;
                     
+                }
+                .infofiltres {
+                    margin-left: 10px;
                 }
                 .heberetaside {
                     flex-direction: column;
                 }
                 #popula {
                     width: 100%;
-                    margin-left: 0px;
+                    height: auto;
+                    margin: 0px;
                     border-radius: 0px;
                 }
                 .populaire {
                     margin-left: -10px;
-                    margin-top: 10px;
+                    margin-top: 15px;
                 }
                 .popul, .popul2, .popul3 {
-                    margin-left: 10px;
-                    width: 95%;
+                    margin-left: 15px;
+                    width: 90%;
+                    margin-top: 2px;
+                }
+                .popul3 {
+                    margin-bottom: 20px;
                 }
                 #hebergements {
                     background-color: white;
+                    width: 100%;
                 }
                 .heberg {
-                    width: 100%;
-                    height: auto;
-                    margin: 0px;
+                    width: 100%;          
+                    margin-left: 10px;
                     margin-bottom: 10px;
                     border: 3px;
                     box-shadow: 0px 3px 3px 0px #F2F2F2;
-                    border-radius: 40px;
+                    border-radius: 20px;
                 }
                 .heberg img {
-                    width: 95%;
-                    margin-left: 10px;
+                    width: 100%;
+                    margin-left: -5px;
                     border-radius: 20px 20px 0px 0px;
                 }
                 h2 {
-                    margin-left: -20px;
+                    margin-left: -30px;
+                    margin-top: -10px;
                 }
                 figcaption {
-                    font-size: 16px;
-                }
-                .prix, .star {
                     font-size: 15px;
                 }
+                .prix, .star {
+                    font-size: 13px;
+                }
                 h3 {
-                    margin-left: -20px;
+                    margin-left: -35px;
                     margin-top: 10px;
                 }
                 #acti {
                     display: flex;
                     flex-direction: column;
-                    width: 100%;
+                    margin-left: 10px;
                 }
                 h5 {
+                    margin-top: 15px;
                     font-size: 20px;
                 }
                 #activites img {
@@ -720,21 +836,21 @@ h4 {
                     
                 }
                 .port {
+                    width: 95%;
                     margin-top: 10px;
-                    width: 100%;
                     border-radius: 20px; 
                 }  
                
                 .calanques {
                     margin-top: 5px;
-                    width: 100%;
+                    width: 95%;
                     margin-left: 0px;
                     border-radius: 20px;
                     }
                 .fort {
                     margin-top: 5px;
-                    width: 96%;
-                    margin-left: 20px;
+                    width: 89%;
+                    margin-left: 30px;
                     border-radius: 20px;
                 }
                 .longchamp {
@@ -742,26 +858,25 @@ h4 {
                    margin-left: 0px;
                     border-radius: 20px;
                     margin-bottom: 40px;
-                    width: 100%;
+                    width: 95%;
                 }
                 .ile {
                     margin-top: 5px;
-                    margin-left: 10px;
-                    margin-left: 20px;
-                    width: 96%;
+                    margin-left: 30px;
+                    width: 89%;
                     border-radius: 20px;
                 }
                 .notredame {
                     margin-top: 5px;
                     margin-left: 0px;
                     border-radius: 20px;
-                    width: 100%;
+                    width: 95%;
                 }
                 
                 #legende {
-                    font-size: 20px;
+                    font-size: 15px;
                    
-                    margin-left: 20px;
+                    margin-left: 10px;
                 }
                 footer {
                     display: flex;
