@@ -226,17 +226,17 @@ button {
 
 .heberetaside {
     display: flex;
-    flex-direction: row-reverse; 
+    flex-direction: row-reverse;
     margin-left: 0px;
-    width: 100%;
+    
 }
 
 #hebergements {
     background-color: #F2F2F2;
     border-radius: 20px;
     margin-bottom: 0px;
-    margin-top: 10px;
-   width: 100%;
+   width: 70%;
+   margin-top: 10px;
      }
 
 
@@ -255,6 +255,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     border-radius: 20px;
+   
 
 }
  
@@ -310,6 +311,7 @@ i.far {
     margin-top: 10px;
     height: 650px;
     margin-left: 50px;
+    width: 30%;
  
  } 
  
@@ -355,8 +357,8 @@ h3 {
     font-size: 20px;
     }
 
-
-#ho {
+.ho {
+    margin-left: 10px;
     width: 70%;
     font-size: 14px;
     color: black;
@@ -451,9 +453,8 @@ h5 {
     width: 100%;
     border-radius: 25px 25px 0 0;
 }
-#activites figcaption {
-    padding-top: 20px;
-    padding-bottom: 5px;
+.legende {
+    padding-top: 10px;
     padding-left: 10px;
 }
 
@@ -498,6 +499,9 @@ h4 {
         margin-left: 40px;
         margin-right: 40px;
     } 
+    #hebergements {
+        width: 100%;
+    }
     .heberetaside {
         display: flex;
         flex-direction: column;
@@ -505,6 +509,7 @@ h4 {
 
     #popula {
         margin: 0;
+        width: 100%;
     }
     .popul, .popul2, .popul3 {
         width: 90%;
@@ -526,6 +531,7 @@ h4 {
     }
     #popula {
         margin-left: -10px;
+        width: 100%;
     }
     .popul, .popul2, .popul3 {
         width: 90%;
@@ -533,6 +539,7 @@ h4 {
     }
     #hebergements {
         margin-left: -5px;   
+        width: 100%;
     }
     .heberg img {
             padding-left: 0px;
@@ -611,6 +618,9 @@ h4 {
     .heberetaside {
         flex-direction: column;
     } 
+    #hebergements {
+        width: 100%;
+    }
     .heberg img {
         width: 100%;
         margin-left: -5px;
@@ -630,6 +640,7 @@ h4 {
     }       
     #popula {
         margin: 0;
+        width: 100%;
     }
     .popul, .popul2, .popul3 {
         width: 90%;
@@ -837,7 +848,7 @@ h4 {
                     flex-direction: column;
                 }
                 #popula {
-                    width: 100%;
+                    width: 380px;
                     height: auto;
                     margin: 0px;
                     border-radius: 0px;
@@ -856,7 +867,7 @@ h4 {
                 }
                 #hebergements {
                     background-color: white;
-                    width: 100%;
+                    width: 380px;
                 }
                 .heberg {
                     width: 100%;          
@@ -875,7 +886,7 @@ h4 {
                     margin-left: -10px;
                     margin-top: -10px;
                 }
-                figcaption {
+                .legende {
                     font-size: 15px;
                 }
                 .prix, .star {
@@ -889,6 +900,7 @@ h4 {
                     display: flex;
                     flex-direction: column;
                     margin-left: 10px;
+                    width: 370px;
                 }
                 h5 {
                     margin-top: 15px;
@@ -939,7 +951,7 @@ h4 {
                     width: 95%;
                 }
                 
-                #activites figcaption {
+                .legende {
                     font-size: 15px;
                    
                     margin-left: 10px;
