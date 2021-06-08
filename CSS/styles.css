@@ -861,7 +861,7 @@ h4 {
                     margin-top: 15px;
                 }
                 .popul, .popul2, .popul3 {
-                    margin-left: 0px;
+                    margin-left: 5px;
                     width: 90%;
                     margin-top: 2px;
                 }
@@ -874,7 +874,7 @@ h4 {
                 }
                 .heberg {
                     width: 100%;          
-                    margin-left: 5px;
+                    margin-left: 8px;
                     margin-bottom: 10px;
                     border: 3px;
                     box-shadow: 0px 3px 3px 0px #F2F2F2;
@@ -882,7 +882,7 @@ h4 {
                 }
                 .heberg img {
                     width: 100%;
-                    margin-left: -5px;
+                   
                     border-radius: 20px 20px 0px 0px;
                 }
                 h2 {
@@ -902,7 +902,7 @@ h4 {
                 #acti {
                     display: flex;
                     flex-direction: column;
-                    margin-left: 10px;
+                    margin-left: 5px;
                     width: 400px;
                 }
                 .ho {
