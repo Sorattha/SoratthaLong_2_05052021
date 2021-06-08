@@ -735,6 +735,7 @@ h4 {
         
             .inscrip {
                 font-size: 20px;
+                margin-right: -20px;
             }
             .presentation {
                 margin-top: -20px;
@@ -860,7 +861,7 @@ h4 {
                     margin-top: 15px;
                 }
                 .popul, .popul2, .popul3 {
-                    margin-left: 15px;
+                    margin-left: 0px;
                     width: 90%;
                     margin-top: 2px;
                 }
@@ -873,7 +874,7 @@ h4 {
                 }
                 .heberg {
                     width: 100%;          
-                    margin-left: 20px;
+                    margin-left: 5px;
                     margin-bottom: 10px;
                     border: 3px;
                     box-shadow: 0px 3px 3px 0px #F2F2F2;
