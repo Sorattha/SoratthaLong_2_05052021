@@ -695,10 +695,13 @@ h4 {
  }
         @media screen and (max-width: 600px) {
             body {
-                margin-left: 0;
+                margin: auto;
             }
             .body-margin {
-                margin-left: 0;
+                margin: auto;
+            }
+            header {
+                width: 100%;
             }
             #logo {
                 width: 100px;
@@ -713,9 +716,9 @@ h4 {
             }
             .menu ul li {
                 border-bottom: solid 3px #f2f2f2;
-                text-align: center;
+                margin-left: -20px;
                 width: 200px;
-                margin-left: -35px;
+              text-align: center;
                 
             }
             .blue {
@@ -735,7 +738,7 @@ h4 {
         
             .inscrip {
                 font-size: 20px;
-                margin-right: -20px;
+               
             }
             .presentation {
                 margin-top: -20px;
@@ -744,6 +747,7 @@ h4 {
             }
             .barre {
                 margin-left: 20px;
+                width: 90%;
             
             }
             .point {
@@ -851,7 +855,7 @@ h4 {
                     flex-direction: column;
                 }
                 #popula {
-                    width: 420px;
+                    width: 100%;
                     height: auto;
                     margin: 0px;
                     border-radius: 0px;
@@ -861,20 +865,20 @@ h4 {
                     margin-top: 15px;
                 }
                 .popul, .popul2, .popul3 {
-                    margin-left: 5px;
-                    width: 90%;
+                    margin-left: auto;
+                    width: 100%;
                     margin-top: 2px;
                 }
                 .popul3 {
                     margin-bottom: 20px;
                 }
+
                 #hebergements {
                     background-color: white;
-                    width: 400px;
+                    width: 100%;
                 }
                 .heberg {
-                    width: 100%;          
-                    margin-left: 8px;
+                    width: 95%;          
                     margin-bottom: 10px;
                     border: 3px;
                     box-shadow: 0px 3px 3px 0px #F2F2F2;
@@ -899,11 +903,14 @@ h4 {
                     margin-left: -10px;
                     margin-top: 10px;
                 }
+                #activites {
+                    width: 100%;
+                }
                 #acti {
                     display: flex;
                     flex-direction: column;
-                    margin-left: 5px;
-                    width: 400px;
+                    width: 100%;
+                    margin-left: 10px;
                 }
                 .ho {
                     font-size: 15px;
