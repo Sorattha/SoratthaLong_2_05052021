@@ -101,7 +101,7 @@ p {
     opacity: 1;
 }
 
-button {
+.button-rechercher  {
     background-color:#0065FC;
     border-color: #0065FC;
     color: white;
@@ -112,18 +112,21 @@ button {
     padding-left: 10px;
     
 }
-button:hover {
+.button-rechercher:hover {
     cursor: pointer;
 }
 .fas.fa-search {
     display: block;
     margin-top: 20px;
 }
+button {
+    display: none;
+}
 
 
 .rech {
     color: white;
-    margin-top: -8px;
+    margin-top: 0px;
     margin-left: -10px;
 }
 
@@ -768,11 +771,10 @@ h4 {
                 height: 50px;
                 width: 400px;
             }
-            button {
+            button.button-rechercher {
                 height: 50px;
-                width: 70px;
-                border-radius: 20px;
-                margin-left: -10px;
+                display: block;
+                width: 50px;
             }
             .fas.fa-search {
                 margin-top: -10px;
@@ -781,6 +783,7 @@ h4 {
             .rech {
                 display: none;
             }
+           
             .icone {
                 width: 30px;
                 height: 30px;
