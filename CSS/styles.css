@@ -727,6 +727,7 @@ h4 {
             
     body {
         margin: auto;
+        overflow-x: hidden;
     }
 
     .body-margin {
