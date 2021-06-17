@@ -1,5 +1,7 @@
 body {
     font-family: 'Raleway ', arial;
+    max-width: 1500px;
+    margin: auto;
 }
 .body-margin {
     margin-left: 40px;
@@ -22,27 +24,37 @@ body {
 }
 
 .inscrip {
-    color: blue;
+    color: #0065FC;
     float: right;
     margin-top: 20px;
 }
+
 .blue {
-    color: blue;
+    color: #0065FC;
     border-top: 2px solid #0065FC;
-    padding-top: 30px;
-    margin-top: -30px;
+    padding-top: 20px;
+    margin-top: -20px;
     margin-right: 40px;
-    }
+}
+
+.blue:hover {
+    color: #0065FC;
+}
+
+.inscrip:hover {
+    color: #0065FC;
+}
 
 .black {
     color: black;
     margin-top: -5px;
+    text-decoration: none;
 }
 
 a {
     display: block;
     padding: 8px;
-    border-color: blue;
+    border-color: #0065FC;
     text-decoration: none;
 }
 
@@ -619,7 +631,7 @@ h4 {
     
     .blue {
          border-top: none;
-         margin-top: -28px;
+         margin-top: -16px;
         }
 
     .inscrip {
